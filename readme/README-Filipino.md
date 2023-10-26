@@ -6,7 +6,7 @@
 
 
 <p align="center">
-    【📚 <a href="../wiki.md">Wiki</a> | 🚀 <a href="../wiki.md#local-demo">Lokal na Demo</a> | 👥 <a href="../Contribution.md">Komunidad ng Kontribusyon sa Software</a> | 🔧 <a href="../wiki.md#customization">Kostomisasyon</a>】
+    【📚 <a href="../../wiki.md">Wiki</a> | 🚀 <a href="../../wiki.md#local-demo">Lokal na Demo</a> | 👥 <a href="../../Contribution.md">Komunidad ng Kontribusyon sa Software</a> | 🔧 <a href="../../wiki.md#customization">Kostomisasyon</a>】
 </p>
 
 ## 📖 Pangkalahatan

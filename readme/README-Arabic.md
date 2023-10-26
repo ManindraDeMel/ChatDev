@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-    *الإنجليزية <unk> <a href="readme/README-Chinese.md">الصينية</a> <unk> <a href="readme/README-Japanese.md">اليابانية</a> <unk> <a href="readme/README-Korean.md">الكورية</a> <unk> <a href="readme/README-Filipino.md">الفلبيني</a> <unk> <a href="readme/README-French.md">الفرنسية</a> <unk> <a href="readme/README-Slovak.md">السلوفاكية</a> <unk> <a href="readme/README-Portuguese.md"></a> <unk> <a href="readme/README-Spanish.md">الإسبانية</a> <unk> <a href="readme/README-Dutch.md">الهولندية</a> <unk> <a href="readme/README-Hindi.md">الهندي</a>
+    *الإنجليزية <unk> <a href="../readme/README-Chinese.md">الصينية</a> <unk> <a href="../readme/README-Japanese.md">اليابانية</a> <unk> <a href="../readme/README-Korean.md">الكورية</a> <unk> <a href="../readme/README-Filipino.md">الفلبيني</a> <unk> <a href="../readme/README-French.md">الفرنسية</a> <unk> <a href="../readme/README-Slovak.md">السلوفاكية</a> <unk> <a href="../readme/README-Portuguese.md"></a> <unk> <a href="../readme/README-Spanish.md">الإسبانية</a> <unk> <a href="../readme/README-Dutch.md">الهولندية</a> <unk> <a href="../readme/README-Hindi.md">الهندي</a>
 </p>
 <p align="center">
-    <unk> 📚 <a href="wiki.md">Wiki</a> <unk> 🚀 <a href="wiki.md#local-demo">العرض التجريبي المحلي</a> <unk> 👥 <a href="Contribution.md">البرنامج المدمج</a> <unk> 🔧 <a href="wiki.md#customization">التخصيص</a> ث
+    <unk> 📚 <a href="../wiki.md">Wiki</a> <unk> 🚀 <a href="../wiki.md#local-demo">العرض التجريبي المحلي</a> <unk> 👥 <a href="../Contribution.md">البرنامج المدمج</a> <unk> 🔧 <a href="../wiki.md#customization">التخصيص</a> ث
 </p>
 
 ## 📖 نظرة عامة
@@ -157,9 +157,9 @@ https://github.com/OpenBMB/ChatDev/assets/11889052/80d01d2f-677b-4399-ad8b-f7af9
 
 ## 🤝 اعترافات
 
-<a href="http://nlp.csai.tsinghua.edu.cn/"><img src="misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
-<a href="https://modelbest.cn/"><img src="misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
-<a href="https://github.com/OpenBMB/AgentVerse/"><img src="misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
+<a href="http://nlp.csai.tsinghua.edu.cn/"><img src="../misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
+<a href="https://modelbest.cn/"><img src="../misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
+<a href="https://github.com/OpenBMB/AgentVerse/"><img src="../misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://aibrb.com/introducing-herbie-your-super-employee-for-streamlined-productivity/"><img src="https://aibrb.com/wp-content/uploads/2023/09/Featured-on-AIBRB.com-white-1.png"  height=50pt></a>
 
 ## 📬 الاتصال

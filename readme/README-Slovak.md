@@ -6,13 +6,13 @@
 
 
 <p align="center">
-    【📚 <a href="../wiki.md">Wiki</a> | 🚀 <a href="../wiki.md#local-demo">Lokalne Demo</a> | 👥 <a href="../Contribution.md">Softvér vytvorený komunitou</a> | 🔧 <a href="../wiki.md#customization">Prispôsobenie</a>】
+    【📚 <a href="../../wiki.md">Wiki</a> | 🚀 <a href="../../wiki.md#local-demo">Lokalne Demo</a> | 👥 <a href="../../Contribution.md">Softvér vytvorený komunitou</a> | 🔧 <a href="../../wiki.md#customization">Prispôsobenie</a>】
 </p>
 
 ## 📖 Prehľad
 
 - **ChatDev** je **virtuálna softvérová spoločnosť**, ktorá pôsobí prostredníctvom rôznych **inteligentných agentov**.
-  rôznych funkcií, vrátane riaditeľa <img src='../online_log/static/figures/ceo.png' height=20>, produktového riaditeľa <img src='../online_log/static/figures/cpo.png' height=20>, technologického riaditeľa <img src="online_log/static/figures/cto.png" height=20>, programátor <img src='../online_log/static/figures/programmer.png' height=20>, recenzent <img src='../online_log/static/figures/reviewer.png' height=20>, tester <img src='../online_log/static/figures/tester.png' height=20>, výtvarník <img src='../online_log/static/figures/designer.png' height=20>. Týto
+  rôznych funkcií, vrátane riaditeľa <img src='../online_log/static/figures/ceo.png' height=20>, produktového riaditeľa <img src='../online_log/static/figures/cpo.png' height=20>, technologického riaditeľa <img src="../online_log/static/figures/cto.png" height=20>, programátor <img src='../online_log/static/figures/programmer.png' height=20>, recenzent <img src='../online_log/static/figures/reviewer.png' height=20>, tester <img src='../online_log/static/figures/tester.png' height=20>, výtvarník <img src='../online_log/static/figures/designer.png' height=20>. Týto
   agenti tvoria multiagentovú organizačnú štruktúru a spája ich poslanie "revolučne zmeniť digitálny svet
   prostredníctvom programovania." Agenti v rámci ChatDev **spolupracujú** účasťou na špecializovaných funkčných seminároch,
   vrátane úloh, ako je navrhovanie, kódovanie, testovanie a dokumentovanie.
@@ -181,9 +181,9 @@ vytvorí softvérový balík a vygeneruje priečinok s názvom ``/WareHouse/2048
 
 
 ## 🤝 Poďakovania
-<a href="http://nlp.csai.tsinghua.edu.cn/"><img src="misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
-<a href="https://modelbest.cn/"><img src="misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
-<a href="https://github.com/OpenBMB/AgentVerse/"><img src="misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
+<a href="http://nlp.csai.tsinghua.edu.cn/"><img src="../misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
+<a href="https://modelbest.cn/"><img src="../misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
+<a href="https://github.com/OpenBMB/AgentVerse/"><img src="../misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://aibrb.com/introducing-herbie-your-super-employee-for-streamlined-productivity/"><img src="https://aibrb.com/wp-content/uploads/2023/09/Featured-on-AIBRB.com-white-1.png"  height=50pt></a>
 
 ## 📬 Kontakt
