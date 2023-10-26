@@ -1,162 +1,141 @@
-# Communicative Agents for Software Development
+# ソフトウェア開発のための通信エージェント
 
 <p align="center">
-  <img src='../misc/logo1.png' width=600>
+  <img src='./misc/logo1.png' width=550>
 </p>
 
-
 <p align="center">
-    【📚 <a href="../wiki.md">Wiki</a> | 🚀 <a href="../wiki.md#local-demo">ローカルデモ</a> | 👥 <a href="../Contribution.md">コミュニティにより作られたソフト</a> | 🔧 <a href="../wiki.md#customization">カスタマイズ</a>】
+    【English | <a href="readme/README-Chinese.md">Chinese</a> | <a href="readme/README-Japanese.md">Japanese</a> | <a href="readme/README-Korean.md">Korean</a> | <a href="readme/README-Filipino.md">Filipino</a> | <a href="readme/README-French.md">French</a> | <a href="readme/README-Slovak.md">Slovak</a> | <a href="readme/README-Portuguese.md">Portuguese</a> | <a href="readme/README-Spanish.md">Spanish</a> | <a href="readme/README-Dutch.md">Dutch</a> | <a href="readme/README-Hindi.md">Hindi</a>】
+</p>
+<p align="center">
+    【📚 <a href="wiki.md">Wiki</a> | 🚀 <a href="wiki.md#local-demo">Local Demo</a> | :busts_in_sシルエット: <a href="Contribution.md">Community Built Software</a> | 🔧 <a href="wiki.md#customization">Customization</a>】
 </p>
 
 ## 📖 概要
 
-- **ChatDev** は、最高経営責任者 <img src='../online_log/static/figures/ceo.png' height=20>、
-  最高製品責任者 <img src='../online_log/static/figures/cpo.png' height=20>、最高技術責任者 <img src='../online_log/static/figures/cto.png' height=20>、プログラマー <img src='../online_log/static/figures/programmer.png' height=20>、レビュアー <img src='../online_log/static/figures/reviewer.png' height=20>、テスター <img src='../online_log/static/figures/tester.png' height=20>、アートデザイナー <img src='../online_log/static/figures/designer.png' height=20> などさまざまな役割を持つさまざまな**インテリジェントエージェント**を擁する**バーチャルソフトウェア企業**である。これらのエージェントはマルチエージェントの組織構造を形成し、
-  "プログラミングを通じてデジタル世界に革命を起こす"というミッションで
-  結束しています。ChatDev 内のエージェントは、設計、コーディング、テスト、ドキュメント作成などのタスクを含む専門的な機能セミナーに参加することで、
-  **共同作業** を行います。
-- ChatDev の主な目的は、**使いやす**く**高度にカスタマイズ可能**で**拡張可能**なフレームワークを提供することであり、
-  これは大規模言語モデル（LLM）に基づいており、集合知を研究するための理想的なシナリオとして機能します。
+- **ChatDev** stands as a **virtual software company** that operates through various **intelligent agents** holding different roles, including Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmer <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. これらの エージェントは、マルチエージェント組織構造を形成し、「プログラミングを通じてデジタルワールド に革命をもたらす」という使命によって結束しています。 ChatDev **内のエージェントは、** に特化した機能セミナーに参加し、 の設計、コーディング、テスト、文書化などのタスクに参加します。
+- The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework, which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
 <p align="center">
-  <img src='../misc/company.png' width=600>
+  <img src='./misc/company.png' width=600>
 </p>
 
 ## 🎉 ニュース
 
-* **2023年9月25日: **Git** 機能が利用可能になりました**、プログラマー <img src='../online_log/static/figures/programmer.png' height=20> がバージョン管理に GitHub を利用できるようになります。この機能を有効にするには、``ChatChainConfig.json`` で ``"git_management"`` を ``"True"`` に設定するだけです。
+* **October 26th, 2023: ChatDev is now supported with Docker for safe execution** (thanks to contribution from [ManindraDeMel](https://github.com/ManindraDeMel)). [Docker スタートガイド](wiki.md#docker-start) をご覧ください。
   <p align="center">
-  <img src='../misc/github.png' width=600>
+  <img src='./misc/docker.png' width=400>
   </p>
-* 2023年9月20日: **Human-Agent-Interaction** モードが利用可能になりました！レビュアー <img src='../online_log/static/figures/reviewer.png' height=20> になってプログラマー <img src='../online_log/static/figures/programmer.png' height=20> に提案することで、ChatDev チームに参加することができます;
-  ``python3 run.py --task [description_of_your_idea] --config "Human"`` を試してみてください。また、[ガイド](../wiki.md#human-agent-interaction)と[例](../WareHouse/Gomoku_HumanAgentInteraction_20230920135038)を参照してください。
+* 2023年9月25日: **Git** モードが利用可能になり、プログラマ <img src='online_log/static/figures/programmer.png' height=20> がGitをバージョン管理に利用できるようになりました。 この機能を有効にするには、 `"git_management"` を `"True"` を `ChatChainConfig.json` に設定するだけです。 [ガイド](wiki.md#git-mode) をご覧ください。
   <p align="center">
-  <img src='../misc/Human_intro.png' width=600>
+  <img src='./misc/github.png' width=600>
   </p>
-* 2023年9月1日: **Art** モードが利用可能になりました！デザイナーエージェント <img src='../online_log/static/figures/designer.png' height=20> を有効にすると、ソフトウェアで使用する画像を生成できます;
-  ``python3 run.py --task [description_of_your_idea] --config "Art"`` を試してみてください。また、[ガイド](../wiki.md#art)と[例](../WareHouse/gomokugameArtExample_THUNLP_20230831122822)を参照してください。
-* 2023年8月28日: システムが一般公開されました。
-* 2023年8月17日: v1.0.0 のリリース準備が整いました。
-* 2023年7月30日: ユーザーは、ChatChain、Phase、Role の設定をカスタマイズすることができます。さらに、オンラインログモードとリプレイモードの両方がサポートされました。
-* 2023年7月16日: このプロジェクトに関連した[プレプリント論文](https://arxiv.org/abs/2307.07924)が発表されました。
-* 2023年6月30日: ChatDev リポジトリの初期バージョンがリリースされました。
+* 2023年9月20日: **ヒューマンエージェント対話** モードが利用可能になりました! You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>; try `python3 run.py --task [description_of_your_idea] --config "Human"`. [ガイド](wiki.md#human-agent-interaction) と [例](WareHouse/Gomoku_HumanAgentInteraction_20230920135038) を参照してください。
+  <p align="center">
+  <img src='./misc/Human_intro.png' width=600>
+  </p>
+* 2023年9月1日： **アート** モードが登場！ You can activate the designer agent <img src='online_log/static/figures/designer.png' height=20> to generate images used in the software; try `python3 run.py --task [description_of_your_idea] --config "Art"`. [ガイド](wiki.md#art) と [例](WareHouse/gomokugameArtExample_THUNLP_20230831122822) を参照してください。
+* 2023年8月28日：システムが一般公開される。
+* 2023年8月17日: v1.0.0バージョンがリリースされました。
+* 2023年7月30日:ChatChain、Phase、Role の設定をユーザがカスタマイズできるようになりました。 さらに、オンラインログモードとリプレイ モードがサポートされるようになりました。
+* 2023年7月16日: このプロジェクトに関連する [プリプリント ペーパー](https://arxiv.org/abs/2307.07924) を発行しました。
+* 2023年6月30日: ChatDev リポジトリの初期バージョンをリリースしました。
 
-## ❓ ChatDev は何ができるのか？
+## ❓ ChatDev は何ができますか？
 
-![intro](../misc/intro.png)
+![intro](misc/intro.png)
 
 https://github.com/OpenBMB/ChatDev/assets/11889052/80d01d2f-677b-4399-ad8b-f7af9bb62b72
 
-## ⚡️ クイックスタート
+## ⚡ クイックスタート
+
+### 🖥️ 端末からクイックスタート
 
 開始するには、以下の手順に従ってください:
 
-1. **GitHub リポジトリのクローン:** コマンドを使ってリポジトリのクローンを作成する:
+1. **GitHub リポジトリのクローン:** コマンドを使用してリポジトリをクローンします。
    ```
    git clone https://github.com/OpenBMB/ChatDev.git
    ```
-2. **Python 環境のセットアップ:** バージョン 3.9 以上の Python 環境があることを確認してください。`ChatDev_conda_env`
-   をお好みの環境名に置き換え、以下のコマンドを使用してこの環境を作成し、有効化することができます:
+2. **Python 環境のセットアップ:** バージョン 3.9 以上の Python 環境があることを確認してください。 次のコマンドを使用して作成して アクティブ化することができます。 `ChatDev_conda_env` をお好みの環境 名に置き換えます:
    ```
    conda create -n ChatDev_conda_env python=3.9 -y
    conda activate ChatDev_conda_env
    ```
-3. **依存関係のインストール:** `ChatDev` ディレクトリに移動し、以下のコマンドを実行して必要な依存関係をインストールする:
+3. **依存関係のインストール:** `ChatDev` ディレクトリに移動し、必要な依存関係を実行してインストールします。
    ```
    cd ChatDev
    pip3 install -r requirements.txt
    ```
-4. **OpenAI API キーの設定:** OpenAI API key を環境変数としてエクスポートします。`"your_OpenAI_API_key"` を実際の API
-   キーに置き換えてください。この環境変数はセッション固有なので、新しいターミナルセッションを開くときに再度設定する必要があることを覚えておいてください。
-   Unix/Linux 上では:
+4. **OpenAI APIキーを設定:** OpenAI APIキーを環境変数としてエクスポートします。 `"your_OpenAI_API_key"` を実際の API キーに 置き換えます。 Remember that this environment variable is session-specific, so you need to set it again if you open a new terminal session. Unix/Linuxの場合:
    ```
    export OPENAI_API_KEY="your_OpenAI_API_key"
    ```
-   Windows 上では:
+   Windows の場合:
    ```
    $env:OPENAI_API_KEY="your_OpenAI_API_key"
    ```
-5. **ソフトウェアの構築:** 次のコマンドを使用して、ソフトウェアのビルドを開始する。`[description_of_your_idea]`
-   をあなたのアイデアの説明に、`[project_name]` を希望するプロジェクト名に置き換える:
-   Unix/Linux 上では:
+5. **ソフトウェアのビルド:** ソフトウェアのビルドを開始するには、次のコマンドを使用します。 ** ** `[description_of_your_idea]` をアイデアの説明に置き換え、 `[project_name]` ご希望のプロジェクト 名前: Unix/Linux の場合:
    ```
    python3 run.py --task "[description_of_your_idea]" --name "[project_name]"
    ```
-   Windows 上では:
-    ```
+   Windows の場合:
+   ```
    python run.py --task "[description_of_your_idea]" --name "[project_name]"
    ```
-6. **ソフトウェアの実行:** 生成されたソフトウェアは、`Project_name_DefaultOrganization_timestamp`
-   のような特定のプロジェクトフォルダの下の `WareHouse`
-   ディレクトリにあります。そのディレクトリで以下のコマンドを使ってソフトウェアを実行してください:
-   Unix/Linux 上では:
+6. **Run Your Software:** Once generated, you can find your software in the `WareHouse` directory under a specific project folder, such as `project_name_DefaultOrganization_timestamp`. Run your software using the following command within that directory: On Unix/Linux:
    ```
    cd WareHouse/project_name_DefaultOrganization_timestamp
    python3 main.py
    ```
-   Windows 上では:
+   Windows の場合:
    ```
    cd WareHouse/project_name_DefaultOrganization_timestamp
    python main.py
    ```
 
-## ✨️ 高度なスキル
+### 🐳 Dockerでクイックスタート
+- Dockerのサポートをご提供いただき、 [ManindraDeMel](https://github.com/ManindraDeMel) に感謝します。 [Docker スタートガイド](wiki.md#docker-start) をご覧ください。
 
-より詳細な情報については、私たちの [Wiki](../wiki.md) を参照してください:
+## ✨ 上級スキル
+
+詳細については、 [Wiki](wiki.md)を参照してください。見つけることができます:
 
 - すべてのコマンド実行パラメータの紹介。
-- 強化されたビジュアライズされたログ、リプレイデモ、シンプルな ChatChain ビジュアライザを含む、ローカルウェブデモをセットアップするための簡単なガイド。
-- ChatDev フレームワークの概要
-- ChatChain 設定の高度なパラメータの包括的な紹介。
-- ChatDev をカスタマイズするためのガイドです:
-    - ChatChain:
-      独自のソフトウェア開発プロセス（または他のプロセス）を設計します。例えば ``DemandAnalysis -> Coding -> Testing -> Manual``
-      などです。
-    - Phase: ``DemandAnalysis``のように、ChatChain 内で独自のフェーズを設計する。
-    - Role: 最高経営責任者 ``Chief Executive Officer`` のように、社内の様々なエージェントを定義する。
+- 強化された可視化されたログ、リプレイデモ、および シンプルなChatChain Visualizerを含むローカルWebデモを設定するための簡単なガイド。
+- ChatDevフレームワークの概要。
+- ChatChain設定のすべての高度なパラメータの包括的な紹介。
+- 以下を含むChatDevのカスタマイズのためのガイド:
+    - ChatChain: 独自のソフトウェア開発プロセス(またはその他のプロセス)を設計します。 such as `DemandAnalysis -> Coding -> Testing -> Manual`.
+    - フェーズ: `DemandAnalysis` のように、ChatChain内で独自のフェーズを設計します。
+    - 役割: `CEO` など、会社の様々なエージェントを定義します。
 
-## 🤗 ソフトウェアをシェア！
+## 🤗 あなたのソフトウェアを共有！
 
-**コード**:
-私たちは、あなたが私たちのオープンソースプロジェクトに参加してくださることに熱意をもっています。もし何か問題があれば、遠慮なく報告してください。問い合わせがある場合、または私たちと仕事を共有する用意がある場合は、遠慮なくプルリクエストを作成してください！あなたのコントリビュートは高く評価されます。また、何かありましたらお知らせください！
+**コード**: オープンソースプロジェクトに参加することに熱心に取り組んでいます。 問題に遭遇した場合は、遠慮なく報告してください。 お問い合わせがある場合、または の方は、お気軽にプルリクエストを作成してください! あなたの貢献は高く評価されています。 Please let me know if there's anything else you need assistance!
 
-**カンパニー**: カスタマイズした "ChatDev Company"
-の作成は簡単です。このパーソナライズされたセットアップには、3つの簡単な設定JSONファイルが必要です。``CompanyConfig/Default``
-ディレクトリで提供されている例をチェックしてください。カスタマイズの詳細については [Wiki](../wiki.md) を参照してください。
+**Company**: 独自のカスタマイズされた「ChatDev Company」を作成するのは簡単です。 このパーソナライズされたセットアップには、3つのシンプルな 構成 JSONファイルが含まれます。 `CompanyConfig/Default` ディレクトリの例を確認してください。 For detailed instructions on customization, refer to our [Wiki](wiki.md).
 
-**ソフトウェア**: ChatDev
-を使ってソフトウェアを開発すると、必要な情報を含むフォルダが作成されます。プルリクエストを行うだけで、あなたの作品を共有することができます。コマンド ``python3 run.py --task "design a 2048 game" --name "2048" --org "THUNLP" --config "Default"``
-を実行してください。これでソフトウェアパッケージが作成され、``/WareHouse/2048_THUNLP_timestamp``
-という名前のフォルダが生成されます。内部には:
+**ソフトウェア**: ChatDevを使用してソフトウェアを開発するたびに、すべての 必須情報を含む対応するフォルダが生成されます。 私たちとあなたの作品を共有することは、プルリクエストを作成するのと同じくらい簡単です。 例: コマンド `python3 run.py --task "design a 2048 game" --name "2048" --org "THUNLP" --config "Default"` を実行します。 ソフトウェアパッケージを作成し、 `/WareHouse/2048_THUNLP_timestamp` という名前のフォルダを生成します。 内部で見つけることができます:
 
-- 2048 ゲームソフトウェアに関連するすべてのファイルとドキュメント
-- ``CompanyConfig/Default`` にある 3 つの JSON 設定ファイルを含む、このソフトウェアを開発した会社の設定ファイル
-- リプレイに使用できる、このソフトウェアのビルドプロセスの詳細なログ（``timestamp.log``）
-- このソフトウェアを作成するために使用された最初のプロンプト (``2048.prompt``)
+- 2048年のゲームソフトウェアに関連するすべてのファイルとドキュメント
+- CompanyConfig/Default `の 3 つの JSON 設定ファイル` を含む、このソフトウェアの責任者の設定ファイル
+- リプレイに使用できるソフトウェアのビルドプロセスを詳述した包括的なログ (`timestamp.log`)
+- このソフトウェアを作成するための最初のプロンプト（`2048.prompt`）
 
-**コミュニティによって投稿されたソフトウェアは[こちら](../Contribution.md)を参照してください！**
+**See community contributed software [here](Contribution.md)!**
 
-### 👨‍💻 ソフトウェア共有者
+## 👨‍💻<unk> 貢献者
 
-<a href="https://github.com/qianc62"><img src="https://avatars.githubusercontent.com/u/48988402?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/thinkwee"><img src="https://avatars.githubusercontent.com/u/11889052?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/NA-Wen"><img src="https://avatars.githubusercontent.com/u/92134380?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/JiahaoLi2003"><img src="https://avatars.githubusercontent.com/u/111221887?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Alphamasterliu"><img src="https://avatars.githubusercontent.com/u/110011045?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/GeekyWizKid"><img src="https://avatars.githubusercontent.com/u/133981481?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Munsif-Raza-T"><img src="https://avatars.githubusercontent.com/u/76085202?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/djbritt"><img src="https://avatars.githubusercontent.com/u/28036018?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Classified3939"><img src="https://avatars.githubusercontent.com/u/102702965?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/chenilim"><img src="https://avatars.githubusercontent.com/u/46905241?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/delconis"><img src="https://avatars.githubusercontent.com/u/5824478?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/eMcQuill"><img src="https://avatars.githubusercontent.com/u/139025701?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Aizhouym"><img src="https://avatars.githubusercontent.com/u/105852026?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/OpenBMB/ChatDev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OpenBMB/ChatDev" />
+</a>
 
-## 🔎 引用
+[contrib.rock](https://contrib.rocks) で作られました。
+## 🔎 文献情報
 
 ```
 @misc{qian2023communicative,
-      title={Communicative Agents for Software Development},
+      title={Communicative Agents for Software Development}, 
       author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},
       year={2023},
       eprint={2307.07924},
@@ -167,21 +146,22 @@ https://github.com/OpenBMB/ChatDev/assets/11889052/80d01d2f-677b-4399-ad8b-f7af9
 
 ## ⚖️ ライセンス
 
-- ソースコードのライセンス 私たちのプロジェクトのソースコードは、Apache 2.0 License の下でライセンスされています。このライセンスは、Apache 2.0 ライセンスに概説されている特定の条件に従い、コードの使用、変更、配布を許可します。
-- プロジェクトのオープンソース化状況: このプロジェクトは確かにオープンソースです; が、この指定は主に非商業的な目的を意図しています。私たちは、研究や非商業的なアプリケーションのためのコミュニティからの協力や貢献を奨励しますが、商業的な目的でプロジェクトのコンポーネントを利用する場合は、個別のライセンス契約が必要であることに注意することが重要です。
-- データライセンス: このプロジェクトで利用された関連データは、CC BY-NC 4.0 でライセンスされており、このライセンスは、データの非商用利用を明確に許可しています。これらのデータセットを用いて学習されたモデルは、非商用利用の制限を厳守し、研究目的のみに使用されるべきであることを強調しておきます。
+- ソースコードライセンス: プロジェクトのソースコードは Apache 2.0 ライセンスに基づいてライセンスされています。 このライセンスは、Apache 2.0 ライセンスに記載されている特定の条件に従い、コードの使用、変更、配布を許可します。
+- プロジェクト オープンソースの状態: このプロジェクトはオープンソースですが、この指定は主に非営利目的を目的としています。 我々は、研究と非商用アプリケーションのためにコミュニティからの協力と貢献を奨励する一方で、 プロジェクトの部品を商業目的に活用するには別々のライセンス契約が必要であることに注意することが重要です。
+- データライセンス: 当社のプロジェクトで使用される関連データは、CC BY-NC 4.0でライセンスされています。 このライセンスは、データの非商用利用を明示的に許可します。 私たちは、これらのデータセットを使用して訓練されたすべてのモデルが非商用利用制限を厳密に遵守し、研究目的のみに使用されるべきであることを強調したいと思います。
 
-## Star History
+## 🌟 星の歴史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
+[![星の履歴チャート](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
 
 
-## 🤝 謝辞
+## 🤝 Acknowledgments
+
 <a href="http://nlp.csai.tsinghua.edu.cn/"><img src="misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://modelbest.cn/"><img src="misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://github.com/OpenBMB/AgentVerse/"><img src="misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://aibrb.com/introducing-herbie-your-super-employee-for-streamlined-productivity/"><img src="https://aibrb.com/wp-content/uploads/2023/09/Featured-on-AIBRB.com-white-1.png"  height=50pt></a>
 
-## 📬 お問い合わせ
+## 📬 連絡先
 
-ご質問、フィードバック、またはお問い合わせがある場合は、[chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com) までお気軽にご連絡ください
+If you have any questions, feedback, or would like to get in touch, please feel free to reach out to us via email at [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
