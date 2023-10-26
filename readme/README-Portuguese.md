@@ -1,97 +1,88 @@
-# Communicative Agents for Software Development
+# Agentes Comunicativos para Desenvolvimento de Software
 
 <p align="center">
   <img src='../misc/logo1.png' width=550>
 </p>
 
-
 <p align="center">
-    【📚 <a href="../wiki.md">Wiki</a> | 🚀 <a href="../wiki.md#local-demo">Demo Local</a> | 👥 <a href="../Contribution.md">Software Construído pela Comunidade</a> | 🔧 <a href="../wiki.md#customization">Personalização</a>】
+    【English | <a href="readme/README-Chinese.md">Chinese</a> | <a href="readme/README-Japanese.md">Japanese</a> | <a href="readme/README-Korean.md">Korean</a> | <a href="readme/README-Filipino.md">Filipino</a> | <a href="readme/README-French.md">French</a> | <a href="readme/README-Slovak.md">Slovak</a> | <a href="readme/README-Portuguese.md">Portuguese</a> | <a href="readme/README-Spanish.md">Spanish</a> | <a href="readme/README-Dutch.md">Dutch</a> | <a href="readme/README-Hindi.md">Hindi</a>】
+</p>
+<p align="center">
+    【📚 <a href="wiki.md">Wiki</a> ├🚀 <a href="wiki.md#local-demo">Demo Local</a> ├👥 <a href="Contribution.md">Community Built Software</a> ├🔧 <a href="wiki.md#customization">Personalização</a>】
 </p>
 
-## 📖 Overview
+## 📖 Visão geral
 
-- **ChatDev** é uma **empresa de software virtual** que opera por meio de vários **agentes inteligentes** desempenhando
-diferentes papéis, incluindo Diretor Executivo <img src='../online_log/static/figures/ceo.png' height=20>, Diretor de Produtos <img src='../online_log/static/figures/cpo.png' height=20>, Diretor de Tecnologia <img src='../online_log/static/figures/cto.png' height=20>, programador <img src='../online_log/static/figures/programmer.png' height=20>, revisor <img src='../online_log/static/figures/reviewer.png' height=20>, testador <img src='../online_log/static/figures/tester.png' height=20>, designer de arte <img src='../online_log/static/figures/designer.png' height=20>. Esses
-agentes formam uma estrutura organizacional multiagente e estão unidos por uma missão de "revolucionar o mundo digital
-por meio da programação." Os agentes dentro do ChatDev **colaboram** participando de seminários funcionais especializados,
-incluindo tarefas como design, codificação, teste e documentação.
-
-- O objetivo principal do ChatDev é oferecer um framework **fácil de usar**, **altamente personalizável** e **extensível**, baseado em modelos de linguagem grandes (LLMs) e que serve como um cenário ideal para estudar a inteligência coletiva.
-
+- **ChatDev** é como uma **empresa de software virtual** que opera através de vários agentes **inteligentes** segurando funções diferentes, incluindo Diretor Executivo <img src='online_log/static/figures/ceo.png' height=20>, Diretor Geral de Produto <img src='online_log/static/figures/cpo.png' height=20>, Diretor Tecnológico <img src='online_log/static/figures/cto.png' height=20>programador <img src='online_log/static/figures/programmer.png' height=20>, revisor <img src='online_log/static/figures/reviewer.png' height=20>, testador <img src='online_log/static/figures/tester.png' height=20>, designer de arte <img src='online_log/static/figures/designer.png' height=20>. Estes agentes formam uma estrutura organizacional de vários agentes e estão unidos por uma missão de "revolucionar o mundo digital através da programação". Os agentes dentro do ChatDev **colaboram** participando de seminários funcionais especializados, incluindo tarefas como criação, codificação, testes e documentação.
+- The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework, which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
 <p align="center">
   <img src='../misc/company.png' width=600>
 </p>
 
 ## 🎉 Notícias
 
-* **25 de setembro de 2023: A funcionalidade Git agora está disponível**, permitindo que o programador <img src='../online_log/static/figures/programmer.png' height=20> utilize o GitHub para controle de versão. Para ativar essa funcionalidade, basta definir ``"git_management"`` para ``"True"`` no arquivo ``ChatChainConfig.json``.
+* **26 de outubro, 2023: ChatDev agora é suportado com Docker para uma execução segura** (graças à contribuição da [ManindraDeMel](https://github.com/ManindraDeMel)). Por favor, consulte [Docker Start Guide](wiki.md#docker-start). .
+  <p align="center">
+  <img src='../misc/docker.png' width=400>
+  </p>
+* 25 de setembro de 2023: O modo **Git** está agora disponível, permitindo que o programador <img src='online_log/static/figures/programmer.png' height=20> use Git para controle de versão. Para ativar este recurso, simplesmente defina `"git_management"` para `"True"` em `ChatChainConfig.json`. Consulte [guia](wiki.md#git-mode).
   <p align="center">
   <img src='../misc/github.png' width=600>
   </p>
-* 20 de setembro de 2023: O modo **Interação Humano-Agent** agora está disponível! Você pode se envolver com a equipe do ChatDev desempenhando o papel de revisor <img src='../online_log/static/figures/reviewer.png' height=20> e fazendo sugestões ao programador <img src='../online_log/static/figures/programmer.png' height=20>;
-  tente ``python3 run.py --task [descrição_da_sua_ideia] --config "Human"``. Veja [guia](../wiki.md#human-agent-interaction) e [exemplo](../WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
-<p align="center">
-<img src='../misc/Human_intro.png' width=600>
-</p>
-
-* 1º de setembro de 2023: O modo **Arte** está disponível agora! Você pode ativar o agente designer <img src='../online_log/static/figures/designer.png' height=20> para gerar imagens usadas no software;
-  try ``python3 run.py --task [descrição_da_sua_ideia] --config "Art"``. Veja o [guia](../wiki.md#art) e o [exemplo](../WareHouse/gomokugameArtExample_THUNLP_20230831122822).
-* 28 de agosto de 2023: O sistema está disponível publicamente.
-* 17 de agosto de 2023: A versão v1.0.0 estava pronta para ser lançada.
-* 30 de julho de 2023: Os usuários podem personalizar as configurações do * ChatChain, Fase e Papel. Além disso, o modo de Log online e o modo de replay * agora são suportados.
-* 16 de julho de 2023: O artigo preliminar associado a este projeto foi * publicado.
+* 20 de setembro de 2023: O modo **Human-Agent-Interaction** está agora disponível! Você pode se envolver com a equipe do ChatDev desempenhando o papel de revisor <img src='online_log/static/figures/reviewer.png' height=20> e fazendo sugestões para o programador <img src='online_log/static/figures/programmer.png' height=20>; tente `python3 executar. y --task [description_of_your_idea] --config "Human"`. Consulte o [guia](wiki.md#human-agent-interaction) e [exemplo](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
+  <p align="center">
+  <img src='../misc/Human_intro.png' width=600>
+  </p>
+* 1 de Setembro de 2023: O modo **Art** está disponível agora! Você pode ativar o agente de designer <img src='online_log/static/figures/designer.png' height=20> para gerar imagens usadas no software; tente `python3 run.py --task [description_of_your_idea] --config "Art"`. Consulte o [guia](wiki.md#art) e [exemplo](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
+* 28 de agosto, 2023: O sistema está disponível ao público.
+* 17 de agosto, 2023: A versão v1.0.0 estava pronta para o lançamento.
+* 30 de julho de 2023: Os usuários podem personalizar as Configurações de ChatChain, Phase e Papel. Além disso, tanto o modo Log online quanto o modo replay são suportados.
+* 16 de Julho de 2023: O papel [pré-impresso](https://arxiv.org/abs/2307.07924) associado a este projeto foi publicado.
 * 30 de junho de 2023: A versão inicial do repositório do ChatDev foi lançada.
 
-## ❓ O Que o ChatDev Pode Fazer?
+## ❓ O que pode ChatDev Do?
 
-![Introdução](../misc/intro.png)
+![Introdução](misc/intro.png)
 
 https://github.com/OpenBMB/ChatDev/assets/11889052/80d01d2f-677b-4399-ad8b-f7af9bb62b72
 
-## ⚡️ Início Rápido
+## ⚡ Início rápido
 
-Para começar, siga estas etapas:
+### 🖥️ Inicie rapidamente com o terminal
 
-1. **Clone o Repositório do GitHub:** Comece clonando o repositório usando o comando:
+Para começar, siga estes passos:
+
+1. **Clone the GitHub Repository:** Begin by cloning the repository using the command:
    ```
    git clone https://github.com/OpenBMB/ChatDev.git
    ```
-2. **Configurar o Ambiente Python:** Verifique se você tem um ambiente Python versão 3.9 ou superior. Você pode criar e
-   ativar este ambiente usando os seguintes comandos, substituindo `ChatDev_conda_env` pelo nome do ambiente de sua
-   preferência:
+2. **Configurar o ambiente Python:** Garanta que você tem a versão 3.9 ou superior ambiente Python. Você pode criar e ativar este ambiente usando os seguintes comandos, substituindo `ChatDev_conda_env` pelo nome de seu ambiente preferido :
    ```
    conda create -n ChatDev_conda_env python=3.9 -y
    conda activate ChatDev_conda_env
    ```
-3. **Instalar Dependências:** Mova-se para o diretório `ChatDev` e instale as dependências necessárias executando:
+3. **Instale as dependências:** Ir para o diretório `ChatDev` e instale as dependências necessárias executando:
    ```
    cd ChatDev
    pip3 install -r requirements.txt
    ```
-4. **Inicializando as chaves da OpenAI API:** Exporte sua chave OpenAI API como uma variável de ambiente. Substitua `"your_OpenAI_API_key"` com sua chave API atual. Lembre-se de que esta variável de ambiente é apenas para esta sessão, portanto, você precisa defini-la novamente se abrir uma nova sessão de terminal.
-   No Unix/Linux:
+4. **Definir chave de API OpenAI:** Exportar sua chave de API OpenAI como uma variável de ambiente. Substitua `"your_OpenAI_API_key"` pela sua chave de API real. Remember that this environment variable is session-specific, so you need to set it again if you open a new terminal session. No Unix/Linux:
    ```
-   export OPENAI_API_KEY="your_OpenAI_API_key"
-   ```
-   No Windows:
-   ```
-   $env:OPENAI_API_KEY="your_OpenAI_API_key"
-   ```
-5. **Construir o Seu Software:** Use o seguinte comando para iniciar a construção do seu software, substituindo
-   `[descrição_da_sua_ideia]` pela descrição da sua ideia e `[nome_do_projeto]` pelo nome do projeto desejado:
-   No Unix/Linux:
-   ```
-   python3 run.py --task "[descrição_da_sua_ideia]" --name "[nome_do_projeto]"
+   Exportar OPENAI_API_KEY="sua_chave_OpenAI_API"
    ```
    No Windows:
    ```
-   python run.py --task "[descrição_da_sua_ideia]" --name "[nome_do_projeto]"
+   $env:OPENAI_API_KEY="sua_chave_OpenAI_API"
    ```
-6. **Executar o Seu Software:** Uma vez gerado, você pode encontrar seu software no diretório `WareHouse` sob uma pasta
-   de projeto específica, como `project_name_DefaultOrganization_timestamp`. Execute seu software usando o seguinte
-   comando dentro desse diretório:
-   No Unix/Linux:
+5. **Construa seu software:** Use o seguinte comando para iniciar a construção do seu software, substituindo `[description_of_your_idea]` pela descrição da sua ideia e `[project_name]` pelo nome desejado do seu projeto . No Unix/Linux:
+   ```
+   python3 run.py --task "[description_of_your_idea]" --name "[project_name]"
+   ```
+   No Windows:
+   ```
+   python run.py --task "[description_of_your_idea]" --name "[project_name]"
+   ```
+6. **Rode seu Software:** Uma vez gerado, você pode encontrar o seu software no diretório `WareHouse` sob uma pasta de projetos específica, tais como `project_name_DefaultOrganization_timestamp`. Execute seu software usando o seguinte comando dentro desse diretório: No Unix/Linux:
    ```
    cd WareHouse/project_name_DefaultOrganization_timestamp
    python3 main.py
@@ -102,75 +93,70 @@ Para começar, siga estas etapas:
    python main.py
    ```
 
-## ✨️ Habilidades Avançadas
+### 🐳 Quickstart com o Docker
+- We thank [ManindraDeMel](https://github.com/ManindraDeMel) for providing Docker support. Por favor, consulte [Docker Start Guide](wiki.md#docker-start). .
 
-Para obter informações mais detalhadas, consulte nossa Wiki, onde você pode encontrar:
+## ✨ Habilidades Avançadas
 
-- Uma introdução a todos os parâmetros de execução de comandos.
-- Um guia direto para configurar um demo web local, que inclui logs visualizados aprimorados, um demo de replay e um ChatChain Visualizer simples.
-- Uma visão geral do framework ChatDev.
+Para obter informações mais detalhadas, consulte o nosso [Wiki](wiki.md), onde você pode encontrar:
+
+- Uma introdução a todos os parâmetros de execução de comando.
+- Um guia direto para a criação de uma demonstração da web local, que inclui logs aprimorados visualizados, um demo de replay e um visualizador simples de ChatChain Visualizer.
+- Uma visão geral do framework Chatdev.
 - Uma introdução abrangente a todos os parâmetros avançados na configuração do ChatChain.
 - Guias para personalizar o ChatDev, incluindo:
-  - ChatChain: Projete seu próprio processo de desenvolvimento de software (ou qualquer outro processo), como ``Análise de Demanda -> Codificação -> Teste -> Manual``.
-  - Fase: Projete sua própria fase dentro do ChatChain, como ``Análise de Demanda``.
-  -  Papel: Defina os diversos agentes em sua empresa, como ``Diretor Executivo``.
+    - ChatChain: Projete seu próprio processo de desenvolvimento de software (ou qualquer outro processo), como `DemandAnalysis -> Codificação -> Testando -> Manual`.
+    - Fase: Projete sua própria fase dentro do ChatChain, como `DemandAnalysis`.
+    - Papel: Definindo os vários agentes em sua empresa, como o `Chefe Executivo`.
 
-## 🤗 Compartilhe seu Software!
+## 🤗 Compartilhe seu software!
 
-**Código**: Estamos entusiasmados com seu interesse em participar de nosso projeto de código aberto. Se você encontrar algum problema, não hesite em relatá-lo. Sinta-se à vontade para criar uma solicitação pull se tiver alguma dúvida ou se estiver pronto para compartilhar seu trabalho conosco! Suas contribuições são altamente valorizadas. Por favor, avise se houver mais alguma coisa que você precisa de ajuda!
+**Código**: Estamos entusiasmados com seu interesse em participar de nosso projeto de código aberto. Se você se deparar com algum problema, não hesite em denunciá-lo. Sinta-se à vontade para criar um pull request se tiver alguma dúvida ou se estiver preparado para compartilhar seu trabalho conosco! Suas contribuições são altamente valorizadas. Please let me know if there's anything else you need assistance!
 
-**Empresa**: Criar sua própria "Empresa ChatDev" personalizada é fácil. Essa configuração personalizada envolve três arquivos JSON de configuração simples. Confira o exemplo fornecido no diretório ``CompanyConfig/Default``. Para instruções detalhadas sobre personalização, consulte nossa [Wiki](../wiki.md).
+**Company**: Criar sua própria "ChatDev Company" é uma brisa. Esta configuração personalizada envolve três arquivos JSON de configuração simples do . Confira o exemplo fornecido no diretório `CompanyConfig/Padrão`. Para obter instruções detalhadas do na personalização, consulte o nosso [Wiki](wiki.md).
 
-**Software**: Sempre que você desenvolve software usando o ChatDev, é gerada uma pasta correspondente contendo todas as informações essenciais. Compartilhar seu trabalho conosco é tão simples quanto criar uma solicitação pull. Aqui está um exemplo: execute o comando ``python3 run.py --task "design a 2048 game" --name "2048"  --org "THUNLP" --config "Default"``. Isso criará um pacote de software e gerará uma pasta chamada ``/WareHouse/2048_THUNLP_timestamp``. Dentro dela, você encontrará:
+**Software**: Whenever you develop software using ChatDev, a corresponding folder is generated containing all the essential information. Compartilhar seu trabalho conosco é tão simples quanto fazer um pull request. Here's an example: execute the command `python3 run.py --task "design a 2048 game" --name "2048"  --org "THUNLP" --config "Default"`. This will create a software package and generate a folder named `/WareHouse/2048_THUNLP_timestamp`. Lá dentro, você encontrará:
 
-- Todos os arquivos e documentos relacionados ao software do jogo 2048
-- Arquivos de configuração da empresa responsável por este software, incluindo os três arquivos JSON de configuração de ``CompanyConfig/Default``
-- Um registro abrangente detalhando o processo de construção do software que pode ser usado para replay (``timestamp.log``)
-- A prompt inicial usada para criar este software (``2048.prompt``)
+- Todos os arquivos e documentos relacionados com o software de jogo 2048
+- Arquivos de configuração da empresa responsável por este software, incluindo os três arquivos de configuração JSON da `EmpresyConfig/Padrão`
+- Um registro abrangente detalhando o processo de construção do software que pode ser usado para replay (`timestamp.log`)
+- A prompt inicial usada para criar este software (`2048.prompt`)
 
-**Veja o software contribuído pela comunidade [aqui](../Contribution.md)!**
+**Veja o software da comunidade com [aqui](Contribution.md)!**
 
-## 👨‍💻‍ Contribuidores de Software
+## :man_technologista:★Colaboradores
 
-<a href="https://github.com/qianc62"><img src="https://avatars.githubusercontent.com/u/48988402?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/thinkwee"><img src="https://avatars.githubusercontent.com/u/11889052?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/NA-Wen"><img src="https://avatars.githubusercontent.com/u/92134380?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/JiahaoLi2003"><img src="https://avatars.githubusercontent.com/u/111221887?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Alphamasterliu"><img src="https://avatars.githubusercontent.com/u/110011045?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/GeekyWizKid"><img src="https://avatars.githubusercontent.com/u/133981481?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Munsif-Raza-T"><img src="https://avatars.githubusercontent.com/u/76085202?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/djbritt"><img src="https://avatars.githubusercontent.com/u/28036018?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Classified3939"><img src="https://avatars.githubusercontent.com/u/102702965?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/chenilim"><img src="https://avatars.githubusercontent.com/u/46905241?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/delconis"><img src="https://avatars.githubusercontent.com/u/5824478?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/eMcQuill"><img src="https://avatars.githubusercontent.com/u/139025701?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Aizhouym"><img src="https://avatars.githubusercontent.com/u/105852026?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/OpenBMB/ChatDev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OpenBMB/ChatDev" />
+</a>
 
-## 🔎 Citação
+Feito com [contrib.rocks](https://contrib.rocks).
+## :magnifying_glass_tilted_direita: Citação
 
 ```
 @misc{qian2023communicative,
       title={Communicative Agents for Software Development}, 
       author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},
-      year={2023},
+      ano={2023},
       eprint={2307.07924},
       archivePrefix={arXiv},
       primaryClass={cs.SE}
 }
 ```
 
-## ⚖️ Licença
+## Licença ⚖️
 
-- Licenciamento de Código Fonte: O código fonte de nosso projeto está licenciado sob a Licença Apache 2.0. Esta licença permite o uso, modificação e distribuição do código, sujeito a certas condições delineadas na Licença Apache 2.0.
-- Status de Código Aberto do Projeto: O projeto é de fato de código aberto; no entanto, essa designação se destina principalmente a fins não comerciais. Embora encorajemos a colaboração e contribuições da comunidade para fins de pesquisa e aplicações não comerciais, é importante observar que qualquer uso dos componentes do projeto para fins comerciais requer acordos de licenciamento separados.
-- Licenciamento de Dados: Os dados relacionados usados em nosso projeto estão licenciados sob CC BY-NC 4.0. Esta licença permite explicitamente o uso não comercial dos dados. Gostaríamos de enfatizar que qualquer modelo treinado usando esses conjuntos de dados deve aderir estritamente à restrição de uso não comercial e deve ser usado exclusivamente para fins de pesquisa.
+- Licença do código-fonte: O código-fonte do nosso projeto é licenciado sob a licença Apache 2.0. Esta licença permite o uso, a modificação e a distribuição do código, sujeito a certas condições descritas na Licença Apache 2.0.
+- Project Open-Source Status: O projeto é de fato de código aberto; no entanto, essa designação é primordialmente destinada a fins não comerciais. Embora encorajemos a colaboração e os contributos da comunidade para a investigação e aplicações não comerciais, É importante notar que qualquer utilização das componentes do projecto para fins comerciais exige acordos de autorização separados.
+- Licença de Dados: Os dados relacionados utilizados em nosso projeto estão licenciados sob a CC BY-NC 4.0. Esta licença explicitamente permite o uso não comercial dos dados. Gostaríamos de salientar que quaisquer modelos formados através destes conjuntos de dados devem respeitar rigorosamente a restrição de utilização não comercial e devem ser utilizados exclusivamente para fins de investigação.
 
 ## 🌟 Histórico de Estrelas
 
-[![Star History Chart](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
+[![Gráfico de História Estelar](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
 
 
-## 🤝 Agradecimentos
+## 🤝 Conhecimentos
+
 <a href="http://nlp.csai.tsinghua.edu.cn/"><img src="misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://modelbest.cn/"><img src="misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://github.com/OpenBMB/AgentVerse/"><img src="misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
@@ -178,4 +164,4 @@ Para obter informações mais detalhadas, consulte nossa Wiki, onde você pode e
 
 ## 📬 Contato
 
-Se você tiver alguma dúvida, feedback ou gostaria de entrar em contato, não hesite em nos enviar um e-mail para [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
+If you have any questions, feedback, or would like to get in touch, please feel free to reach out to us via email at [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)

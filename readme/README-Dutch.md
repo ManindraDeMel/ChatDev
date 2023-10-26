@@ -1,160 +1,162 @@
-# Communicative Agents for Software Development
+# Communicatieve agenten voor softwareontwikkeling
 
 <p align="center">
   <img src='../misc/logo1.png' width=550>
 </p>
 
 <p align="center">
-    【📚 <a href="../wiki.md">Wiki</a> | 🚀 <a href="../wiki.md#local-demo">Lokale Demo</a> | 👥 <a href="../Contribution.md">Community Gebouwde Software</a> | 🔧 <a href="../wiki.md#customization">Aanpassing</a>】
+    【English | <a href="readme/README-Chinese.md">Chinese</a> | <a href="readme/README-Japanese.md">Japanese</a> | <a href="readme/README-Korean.md">Korean</a> | <a href="readme/README-Filipino.md">Filipino</a> | <a href="readme/README-French.md">French</a> | <a href="readme/README-Slovak.md">Slovak</a> | <a href="readme/README-Portuguese.md">Portuguese</a> | <a href="readme/README-Spanish.md">Spanish</a> | <a href="readme/README-Dutch.md">Dutch</a> | <a href="readme/README-Hindi.md">Hindi</a>】
+</p>
+<p align="center">
+    (unnamed@@0) 📚 <a href="wiki.md">Wiki</a> ½ 🚀 <a href="wiki.md#local-demo">Lokale Demo</a> ## 👥 <a href="Contribution.md">Community Built Software</a> ½ 🔧 <a href="wiki.md#customization">Aanpassen</a>(%)
 </p>
 
 ## 📖 Overzicht
 
-- **ChatDev** fungeert als een **virtueel softwarebedrijf** dat werkt met verschillende **intelligente agenten** die verschillende rollen vervullen, waaronder Chief Executive Officer <img src='../online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='../online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='../online_log/static/figures/cto.png' height=20>, programmeur <img src='../online_log/static/figures/programmer.png' height=20>, recensent <img src='../online_log/static/figures/reviewer.png' height=20>, tester <img src='../online_log/static/figures/tester.png' height=20>, kunstontwerper <img src='../online_log/static/figures/designer.png' height=20>. Deze agenten vormen een multi-agent organisatiestructuur en zijn verenigd door een missie om "de digitale wereld te revolutioneren door middel van programmeren." De agenten binnen ChatDev **werken samen** door deel te nemen aan gespecialiseerde functionele seminars, waaronder taken zoals ontwerpen, coderen, testen en documenteren.
-- Het primaire doel van ChatDev is het aanbieden van een **eenvoudig te gebruiken**, **zeer aanpasbaar** en **uitbreidbaar** framework, dat is gebaseerd op grote taalmodellen (LLM's) en dient als een ideaal scenario voor het bestuderen van collectieve intelligentie.
+- **ChatDev** staat als een **virtueel softwarebedrijf** dat opereert via verschillende **intelligente agenten** met verschillende rollen houd. inclusief Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmeur <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. These agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world through programming." De agenten binnen ChatDev **werken samen** door deel te nemen aan gespecialiseerde functionele seminars, inclusief taken zoals het ontwerpen, coderen, testen en documenteren.
+- Het primaire doel van ChatDev is om een **makkelijk te gebruiken**, **zeer aanpasbaar** en **uitbreidbaar** framework die is gebaseerd op grote taalmodellen (LLM's) en fungeert als een ideaal scenario voor het bestuderen van collectieve intelligentie.
 <p align="center">
   <img src='../misc/company.png' width=600>
 </p>
 
 ## 🎉 Nieuws
 
-* **25 september 2023: De **Git**-functie is nu beschikbaar**, waardoor de programmeur <img src='../online_log/static/figures/programmer.png' height=20> GitHub kan gebruiken voor versiebeheer. Om deze functie in te schakelen, stelt u eenvoudigweg ``"git_management"`` in op ``"True"`` in ``ChatChainConfig.json``.
+* **26 oktober, 2023: ChatDev wordt nu ondersteund met Docker voor een veilige executie** (dankzij de bijdrage van [ManindraDeMel](https://github.com/ManindraDeMel)). Zie [Start Guide van Docker](wiki.md#docker-start).
+  <p align="center">
+  <img src='../misc/docker.png' width=400>
+  </p>
+* 25 september, 2023: De **Git** modus is nu beschikbaar, zodat de programmeur <img src='online_log/static/figures/programmer.png' height=20> Git kan gebruiken voor versiemanagement. Om deze functie in te schakelen, stel `"git_management"` in op `"True"` in `ChatChainConfig.json`. Zie [handleiding](wiki.md#git-mode).
   <p align="center">
   <img src='../misc/github.png' width=600>
   </p>
-* 20 september 2023: De **Human-Agent-Interaction**-modus is nu beschikbaar! U kunt deelnemen aan het ChatDev-team door de rol van recensent <img src='../online_log/static/figures/reviewer.png' height=20> te spelen en suggesties te doen aan de programmeur <img src='../online_log/static/figures/programmer.png' height=20>; probeer ``python3 run.py --task [beschrijving_van_uw_idee] --configuratie "Human"``. Zie [handleiding](../wiki.md#human-agent-interactie) en [voorbeeld](../WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
+* 20 September 2023: De **Human-Agent-Interactie** modus is nu beschikbaar! U kunt betrokken raken bij het ChatDev team door de rol van reviewer <img src='online_log/static/figures/reviewer.png' height=20> te spelen en suggesties te doen aan de programmeur <img src='online_log/static/figures/programmer.png' height=20>; probeer `python3 run. y --task [description_of_your_idea] --config "Human"`. Zie [handleiding](wiki.md#human-agent-interaction) en [voorbeeld](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
   <p align="center">
   <img src='../misc/Human_intro.png' width=600>
   </p>
-* 1 september 2023: De **Art**-modus is nu beschikbaar! U kunt de ontwerpagent <img src='../online_log/static/figures/designer.png' height=20> activeren om afbeeldingen te genereren die in de software worden gebruikt; probeer ``python3 run.py --task [beschrijving_van_uw_idee] --configuratie "Art"``. Zie [handleiding](../wiki.md#art) en [voorbeeld](../WareHouse/gomokugameArtExample_THUNLP_20230831122822).
-* 28 augustus 2023: Het systeem is nu openbaar beschikbaar.
-* 17 augustus 2023: De v1.0.0-versie was gereed voor release.
-* 30 juli 2023: Gebruikers kunnen ChatChain-, Fase- en Rolvermeldingen aanpassen. Bovendien worden zowel online Log-modus als herhalingsmodus ondersteund.
-* 16 juli 2023: Het [voorlopige paper](https://arxiv.org/abs/2307.07924) dat aan dit project is gekoppeld, is gepubliceerd.
-* 30 juni 2023: De eerste versie van het ChatDev-repository werd uitgebracht.
+* 1 September 2023: De **Kunst** modus is nu beschikbaar! Je kunt de designer agent <img src='online_log/static/figures/designer.png' height=20> activeren om afbeeldingen te genereren die gebruikt worden in de software; probeer `python3 run.py --task [description_of_your_idea] --config "Art"`. Zie [handleiding](wiki.md#art) en [voorbeeld](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
+* 28 augustus 2023: het systeem is openbaar beschikbaar.
+* 17de augustus, 2023: de v1.0.0 versie was klaar voor release.
+* 30 juli, 2023: Gebruikers kunnen ChatChain, Fase en Rol instellingen aanpassen. Bovendien, worden zowel de online logmodus als de replay modus nu ondersteund.
+* 16, 2023: de [voordruk papier](https://arxiv.org/abs/2307.07924) geassocieerd met dit project is gepubliceerd.
+* 30 juni, 2023: De eerste versie van de ChatDev repository is vrijgegeven.
 
 ## ❓ Wat kan ChatDev doen?
 
-![intro](../misc/intro.png)
+![intro](misc/intro.png)
 
 https://github.com/OpenBMB/ChatDev/assets/11889052/80d01d2f-677b-4399-ad8b-f7af9bb62b72
 
-## ⚡️ Snel van start
+## ⚡ Quickstart
 
-Om aan de slag te gaan, volg deze stappen:
+### 🖥️ Quickstart met terminal
 
-1. **Kloon de GitHub Repository:** Begin met het klonen van de repository met het volgende commando:
-   	```
-   	git clone https://github.com/OpenBMB/ChatDev.git
-   	```
-2. **Stel uw Python-omgeving in:** Zorg ervoor dat u een Python-omgeving van versie 3.9 of hoger heeft. U kunt deze omgeving maken en activeren met de volgende opdrachten, waarbij u 'ChatDev_conda_env' vervangt door uw gewenste omgevingsnaam:
-   	```
-   	conda create -n ChatDev_conda_env python=3.9 -y
-   	conda activate ChatDev_conda_env
-   	```
-3. **Installeer de benodigde afhankelijkheden:** Ga naar de `ChatDev`-directory en installeer de benodigde afhankelijkheden door het volgende commando uit te voeren:
-	```
-	cd ChatDev
-	pip3 install -r requirements.txt
- 	```
-4. **Stel uw OpenAI API-sleutel in:** Exporteer uw OpenAI API-sleutel als een omgevingsvariabele. Vervang `"uw_OpenAI_API-sleutel"` door uw daadwerkelijke API-sleutel. Onthoud dat deze omgevingsvariabele sessiespecifiek is, dus u moet deze opnieuw instellen als u een nieuwe terminalsessie opent.
-	Op Unix/Linux:
-	```
- 	export OPENAI_API_KEY="uw_OpenAI_API-sleutel"
-	```
-	Op Windows:
-	```
- 	$env:OPENAI_API_KEY="uw_OpenAI_API-sleutel"
-	```
-5. **Bouw uw software:** Gebruik het volgende commando om het bouwen van uw software te starten, waarbij u '[beschrijving_van_uw_idee]' vervangt door de beschrijving van uw idee en '[projectnaam]' door uw gewenste projectnaam:
-	Op Unix/Linux:
-	```
-	python3 run.py --task "[beschrijving_van_uw_idee]" --naam "[projectnaam]"
-	```
-	Op Windows:
-	```
-	python run.py --taak "[beschrijving_van_uw_idee]" --naam "[projectnaam]"
-	```
-6. **Voer uw software uit:** Zodra gegenereerd, kunt u uw software vinden in de `WareHouse`-directory onder een specifieke projectmap, zoals `projectnaam_DefaultOrganization_timestamp`. Voer uw software uit met het volgende commando binnen die directory:
-	Op Unix/Linux:
-	```
-	cd WareHouse/projectnaam_DefaultOrganization_timestamp
-	python3 main.py
-	```
- 	Op Windows:
-	```
-	cd WareHouse/projectnaam_DefaultOrganization_timestamp
-	python main.py
-	```
+Volg deze stappen om te beginnen:
 
-## ✨️ Geavanceerde Vaardigheden
+1. **Kloon de GitHub Repository:** Begin door de repository te klonen met behulp van de opdracht:
+   ```
+   git clone https://github.com/OpenBMB/ChatDev.git
+   ```
+2. **Stel Python Environment in:** Zorg ervoor dat je een versie 3.9 of een hogere Python omgeving hebt. U kunt deze omgeving maken en activeren met behulp van de volgende commando's, vervang `ChatDev_conda_env` door uw gewenste omgeving naam:
+   ```
+   conda maakt -n ChatDev_conda_env python=3.9 y
+   conda activeer ChatDev_conda_env
+   ```
+3. **Installeer Afhankelijkheden:** Verplaats naar de `ChatDev` map en installeer de benodigde afhankelijkheden door uit te voeren:
+   ```
+   cd ChatDev
+   pip3 install -r requirements.txt
+   ```
+4. **Set OpenAI API-sleutel:** Exporteer uw OpenAI API-sleutel als een omgevingsvariabele. Vervang `"your_OpenAI_API_key"` met je werkelijke API-sleutel. Onthoud dat deze omgevingsvariabele sessie-specifiek is, dus moet je hem opnieuw instellen als je een nieuwe terminale sessie opent. In Unix/Linux:
+   ```
+   export OPENAI_API_KEY="jouw_OpenAI_API_key"
+   ```
+   In Windows:
+   ```
+   $env:OPENAI_API_KEY="jouw_OpenAI_API_key"
+   ```
+5. **Bouw Uw Software:** Gebruik het volgende commando om het bouwen van uw software te starten, vervangt `[description_of_your_idea]` door uw idea's beschrijving en `[project_name]` door het gewenste project naam: On Unix/Linux:
+   ```
+   python3 run.py --task "[description_of_your_idea]" --name "[project_name]"
+   ```
+   In Windows:
+   ```
+   python run.py --task "[description_of_your_idea]" --name "[project_name]"
+   ```
+6. **Voer Uw Software uit:** Eenmaal gegenereerd, u kunt uw software vinden in de `Magazijn` directory onder een specifieke projectmap, zoals `project_name_DefaultOrganization_timestamp`. Voer uw software uit met behulp van de volgende opdracht binnen die directory: On Unix/Linux:
+   ```
+   cd WareHouse/project_name_DefaultOrganization_timestamp
+   python3 main.py
+   ```
+   In Windows:
+   ```
+   cd WareHouse/project_name_DefaultOrganization_timestamp
+   python main.py
+   ```
 
-Voor meer gedetailleerde informatie, verwijzen wij u graag naar onze [Wiki](../wiki.md), waar u kunt vinden:
+### 🐳 Quickstart met Docker
+- Wij danken [ManindraDeMel](https://github.com/ManindraDeMel) voor het bieden van Docker ondersteuning. Zie [Start Guide van Docker](wiki.md#docker-start).
 
-- Een inleiding tot alle commando-uitvoeringsparameters.
-- Een eenvoudige handleiding voor het opzetten van een lokale webdemo, inclusief verbeterde visuele logs, een herhalingdemo en een eenvoudige ChatChain Visualizer.
-- Een overzicht van het ChatDev-framework.
-- Een uitgebreide introductie tot alle geavanceerde parameters in de ChatChain-configuratie.
-- Handleidingen voor het aanpassen van ChatDev, inclusief:
-    - ChatChain: Ontwerp uw eigen softwareontwikkelingsproces (of elk ander proces), zoals ``DemandAnalysis -> Codering -> Testen -> Handmatig``.
-    - Fase: Ontwerp uw eigen fase binnen ChatChain, zoals ``DemandAnalysis``.
-    - Rol: Definieer de verschillende agenten in uw bedrijf, zoals de ``Chief Executive Officer``.
+## ✨ Geavanceerde Vaardigheden
 
-## 🤗 Deel je Software!
+Raadpleeg voor meer gedetailleerde informatie onze [Wiki](wiki.md), waar je het kan vinden:
 
-**Code**: We zijn enthousiast over je interesse om deel te nemen aan ons open-source project. Als je ergens problemen tegenkomt, aarzel dan niet om ze te melden. Voel je vrij om een pull-aanvraag te maken als je vragen hebt of als je bereid bent je werk met ons te delen! Jouw bijdragen worden zeer gewaardeerd. Laat me weten als er iets is waarbij je hulp nodig hebt!
+- Een introductie tot alle commando-uitvoeringsparameters.
+- Een eenvoudige handleiding voor het opzetten van een lokale webdemo, die uitgebreide visualiseerde logs, een replay demo, en een simpele ChatChain Visualizer.
+- Een overzicht van het ChatDev framework.
+- Een uitgebreide introductie van alle geavanceerde parameters in de ChatChain-configuratie.
+- Handleidingen voor het aanpassen van ChatDev, waaronder:
+    - ChatChain: Ontwerp uw eigen softwareontwikkelingsproces (of elk ander proces), zoals als `DemandAnalyse -> Codering -> Testen -> Handmatig`.
+    - Fase: Ontwerp je eigen fase binnen ChatChain, zoals `DemandAnalyse`.
+    - Rol: Definiëren van de verschillende agenten van uw bedrijf, zoals de `Chief Executive Officer`.
 
-**Bedrijf**: Het creëren van je eigen aangepaste "ChatDev-bedrijf" is een fluitje van een cent. Deze gepersonaliseerde opstelling omvat drie eenvoudige configuratie-JSON-bestanden. Bekijk het voorbeeld in de map ``CompanyConfig/Default``. Voor gedetailleerde instructies over aanpassing, verwijzen wij naar onze [Wiki](../wiki.md).
+## 🤗 Deel uw Software!
 
-**Software**: Telkens wanneer je software ontwikkelt met ChatDev, wordt er een overeenkomstige map gegenereerd met alle essentiële informatie. Je werk met ons delen is net zo eenvoudig als een pull-aanvraag maken. Hier is een voorbeeld: voer het commando uit ``python3 run.py --task "ontwerp een 2048 spel" --naam "2048" --org "THUNLP" --configuratie "Default"``. Hiermee maak je een softwarepakket en genereert een map met de naam ``/WareHouse/2048_THUNLP_timestamp``. Daarin vind je:
+**Code**: We zijn enthousiast over je interesse in deelname aan ons open-source project. If you come across any problems, don't hesitate to report them. Voel je vrij om een pull-aanvraag te maken als je vragen hebt of bereid bent om je werk met ons te delen! Uw bijdragen worden zeer gewaardeerd. Laat het me weten als er iets anders is je hulp nodig hebt!
 
-- Alle bestanden en documenten met betrekking tot de 2048-game-software
-- Configuratiebestanden van het bedrijf dat verantwoordelijk is voor deze software, inclusief de drie JSON-configuratiebestanden uit ``CompanyConfig/Default``
-- Een uitgebreid logboek met details over het bouwproces van de software, dat kan worden gebruikt voor herhaling (``timestamp.log``)
-- De oorspronkelijke prompt die is gebruikt om deze software te maken (``2048.prompt``)
+**Bedrijf**: het maken van uw eigen aangepaste "ChatDev Bedrijf" is een fluitje. Deze gepersonaliseerde configuratie omvat drie eenvoudige configuratie JSON bestanden. Bekijk het voorbeeld in de `CompanyConfig/Default` map. Voor gedetailleerde instructies over aanpassingen, ga naar onze [Wiki](wiki.md).
 
-**Bekijk door de gemeenschap bijgedragen software [hier](../Contribution.md)!**
+**Software**: Wanneer u software ontwikkelt met ChatDev, wordt er een overeenkomstige map gegenereerd met alle essentiële informatie van . Het delen van je werk met ons is zo eenvoudig als het doen van een pull-verzoek. Hier is een voorbeeld: voer de command `python3 run.py --task "design een spel" --name "2048" --org "THUNLP" --config "Default"`. Dit zal een softwarepakket maken en een map aanmaken met de naam `/WareHouse/2048_THUNLP_timestamp`. Binnen zal je het vinden:
 
-## 👨‍💻‍ Software Bijdragers
+- Alle bestanden en documenten die gerelateerd zijn aan de 2048 spel software
+- Configuratiebestanden van het bedrijf dat verantwoordelijk is voor deze software, inclusief de drie JSON configuratiebestanden van `CompanyConfig/Default`
+- Een uitgebreid logboek met daarin het bouwproces van de software dat kan worden gebruikt om te herspelen (`timestamp.log`)
+- De eerste prompt die werd gebruikt om deze software te maken (`2048.prompt`)
 
-<a href="https://github.com/qianc62"><img src="https://avatars.githubusercontent.com/u/48988402?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/thinkwee"><img src="https://avatars.githubusercontent.com/u/11889052?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/NA-Wen"><img src="https://avatars.githubusercontent.com/u/92134380?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/JiahaoLi2003"><img src="https://avatars.githubusercontent.com/u/111221887?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Alphamasterliu"><img src="https://avatars.githubusercontent.com/u/110011045?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/GeekyWizKid"><img src="https://avatars.githubusercontent.com/u/133981481?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Munsif-Raza-T"><img src="https://avatars.githubusercontent.com/u/76085202?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/djbritt"><img src="https://avatars.githubusercontent.com/u/28036018?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Classified3939"><img src="https://avatars.githubusercontent.com/u/102702965?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/chenilim"><img src="https://avatars.githubusercontent.com/u/46905241?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/delconis"><img src="https://avatars.githubusercontent.com/u/5824478?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/eMcQuill"><img src="https://avatars.githubusercontent.com/u/139025701?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+**Zie community bijgedragen software [hier](Contribution.md)!**
 
-## 🔎 Bronvermelding
+## 👨‍💻58 bijdragers
+
+<a href="https://github.com/OpenBMB/ChatDev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OpenBMB/ChatDev" />
+</a>
+
+Gemaakt met [contrib.rocks](https://contrib.rocks).
+## 🔎 Citatie
 
 ```
-@misc{qian2023communicative,
+@misc{qian20communicatief,
       title={Communicative Agents for Software Development}, 
-      author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},
-      year={2023},
+      auteur ={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},
+      jaar ={2023},
       eprint={2307.07924},
-      archivePrefix={arXiv},
+      archiefvoorvoegsel={arXiv}
       primaryClass={cs.SE}
 }
 ```
 
-## ⚖️ Licentie
+## :balance_schaal: Licentie
 
-- Licentie voor Broncode: De broncode van ons project valt onder de Apache 2.0-licentie. Deze licentie staat het gebruik, de aanpassing en de verspreiding van de code toe, met inachtneming van bepaalde voorwaarden zoals uiteengezet in de Apache 2.0-licentie.
-- Open-Source Status van het Project: Het project is inderdaad open-source, maar deze aanduiding is primair bedoeld voor niet-commerciële doeleinden. Hoewel we samenwerking en bijdragen van de gemeenschap aanmoedigen voor onderzoeks- en niet-commerciële toepassingen, is het belangrijk op te merken dat elke commerciële toepassing van de projectonderdelen afzonderlijke licentieovereenkomsten vereist.
-- Licentie voor Gegevens: De gerelateerde gegevens die in ons project worden gebruikt, vallen onder de CC BY-NC 4.0-licentie. Deze licentie staat uitdrukkelijk het niet-commerciële gebruik van de gegevens toe. Wij willen benadrukken dat modellen die met behulp van deze datasets zijn getraind, strikt moeten voldoen aan de beperkingen voor niet-commercieel gebruik en uitsluitend voor onderzoeksdoeleinden moeten worden ingezet.
+- Broncode licentie: de broncode van ons project is gelicentieerd onder de Apache 2.0 License. Deze licentie staat het gebruik, wijziging en distributie van de code toe, onder bepaalde voorwaarden zoals beschreven in de Apache 2.0 licentie.
+- Open-Source project status: het project is inderdaad open source; deze benaming is echter voornamelijk bedoeld voor niet-commerciële doeleinden. Terwijl we samenwerking en bijdragen van de gemeenschap voor onderzoek en niet-commerciële toepassingen aanmoedigen, het is belangrijk op te merken dat voor elk gebruik van de onderdelen van het project voor commerciële doeleinden aparte licentieovereenkomsten nodig zijn.
+- Gegevenslicentie: de gerelateerde gegevens gebruikt in ons project is gelicenseerd onder CC BY-NC 4.0. Deze licentie staat uitdrukkelijk niet-commercieel gebruik van de gegevens toe. Wij willen benadrukken dat alle modellen die worden opgeleid met behulp van deze datasets strikt de hand moeten houden aan de beperking van het niet-commerciële gebruik en uitsluitend voor onderzoeksdoeleinden moeten worden gebruikt.
 
-## 🌟 Star Geschiedenis
+## 🌟 Stergeschiedenis
 
-[![Star History Chart](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
+[![Ster Geschiedenis Grafiek](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
 
 
-## 🤝 Erkenningen
+## 🤝 Kennisgevingen
+
 <a href="http://nlp.csai.tsinghua.edu.cn/"><img src="misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://modelbest.cn/"><img src="misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://github.com/OpenBMB/AgentVerse/"><img src="misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
@@ -162,4 +164,4 @@ Voor meer gedetailleerde informatie, verwijzen wij u graag naar onze [Wiki](../w
 
 ## 📬 Contact
 
-Als je vragen hebt, feedback wilt geven, of contact met ons wilt opnemen, aarzel dan niet om ons te mailen op [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
+Als u vragen, feedback heeft of contact met u wilt hebben, Voel je vrij om ons te bereiken via e-mail via [chatdev. penbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
