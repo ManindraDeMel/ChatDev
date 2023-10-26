@@ -1,63 +1,62 @@
 # Communicative Agents for Software Development
 
 <p align="center">
-  <img src='../misc/logo1.png' width=550>
+  <img src='./misc/logo1.png' width=550>
 </p>
 
-
 <p align="center">
-    【📚 <a href="../wiki.md">Wiki</a> | 🚀 <a href="../wiki.md#local-demo">Lokalne Demo</a> | 👥 <a href="../Contribution.md">Softvér vytvorený komunitou</a> | 🔧 <a href="../wiki.md#customization">Prispôsobenie</a>】
+    【English | <a href="readme/README-Chinese.md">Chinese</a> | <a href="readme/README-Japanese.md">Japanese</a> | <a href="readme/README-Korean.md">Korean</a> | <a href="readme/README-Filipino.md">Filipino</a> | <a href="readme/README-French.md">French</a> | <a href="readme/README-Slovak.md">Slovak</a> | <a href="readme/README-Portuguese.md">Portuguese</a> | <a href="readme/README-Spanish.md">Spanish</a> | <a href="readme/README-Dutch.md">Dutch</a> | <a href="readme/README-Hindi.md">Hindi</a>】
+</p>
+<p align="center">
+    【📚 <a href="wiki.md">Wiki</a> | 🚀 <a href="wiki.md#local-demo">Local Demo</a> | 👥 <a href="Contribution.md">Community Built Software</a> | 🔧 <a href="wiki.md#customization">Customization</a>】
 </p>
 
 ## 📖 Prehľad
 
-- **ChatDev** je **virtuálna softvérová spoločnosť**, ktorá pôsobí prostredníctvom rôznych **inteligentných agentov**.
-  rôznych funkcií, vrátane riaditeľa <img src='../online_log/static/figures/ceo.png' height=20>, produktového riaditeľa <img src='../online_log/static/figures/cpo.png' height=20>, technologického riaditeľa <img src="online_log/static/figures/cto.png" height=20>, programátor <img src='../online_log/static/figures/programmer.png' height=20>, recenzent <img src='../online_log/static/figures/reviewer.png' height=20>, tester <img src='../online_log/static/figures/tester.png' height=20>, výtvarník <img src='../online_log/static/figures/designer.png' height=20>. Týto
-  agenti tvoria multiagentovú organizačnú štruktúru a spája ich poslanie "revolučne zmeniť digitálny svet
-  prostredníctvom programovania." Agenti v rámci ChatDev **spolupracujú** účasťou na špecializovaných funkčných seminároch,
-  vrátane úloh, ako je navrhovanie, kódovanie, testovanie a dokumentovanie.
-- Hlavným cieľom ChatDev je ponúknuť **jednoduchý**, **vysoko prispôsobiteľný** a **rozšíriteľný** framework,
-  ktorý je založený na veľkých jazykových modeloch (LLM) a slúži ako ideálny scenár na štúdium kolektívnej inteligencie.
+- **ChatDev** stands as a **virtual software company** that operates through various **intelligent agents** holding different roles, including Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmer <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. These agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world through programming." The agents within ChatDev **collaborate** by participating in specialized functional seminars, including tasks such as designing, coding, testing, and documenting.
+- Hlavným cieľom ChatDev je ponúknuť **jednoduchý**, **vysoko prispôsobiteľný** a **rozšíriteľný** framework, ktorý je založený na veľkých jazykových modeloch (LLM) a slúži ako ideálny scenár na štúdium kolektívnej inteligencie.
 <p align="center">
-  <img src='../misc/company.png' width=600>
+  <img src='./misc/company.png' width=600>
 </p>
 
 ## 🎉 Novinky
 
-* september 25. 2023: Teraz je k dispozícii funkcia **Git**, ktorá umožňuje programátorovi <img src='../online_log/static/figures/programmer.png' height=20> využívať GitHub na version control. Ak chcete túto funkciu povoliť, jednoducho nastavte ``"git_management"`` na ``"True"`` v súbore ``ChatChainConfig.json``.
+* **October 26th, 2023: ChatDev is now supported with Docker for safe execution** (thanks to contribution from [ManindraDeMel](https://github.com/ManindraDeMel)). Please see [Docker Start Guide](wiki.md#docker-start).
   <p align="center">
-  <img src='../misc/github.png' width=600>
+  <img src='./misc/docker.png' width=400>
   </p>
-* september 20. 2023: Režim **Human-Agent-Interaction** je teraz k dispozícii! Môžete sa zapojiť do tímu ChatDev tým, že budete hrať úlohu recenzenta <img src='../online_log/static/figures/reviewer.png' height=20> a predkladať návrhy programátorovi <img src='../online_log/static/figures/programmer.png' height=20>;
-  skúste ``python3 run.py --task [description_of_your_idea] --config "Human"``. Pozri [návod](../wiki.md#human-agent-interaction) a [príklad](../WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
+* September 25th, 2023: The **Git** mode is now available, enabling the programmer <img src='online_log/static/figures/programmer.png' height=20> to utilize Git for version control. To enable this feature, simply set `"git_management"` to `"True"` in `ChatChainConfig.json`. See [guide](wiki.md#git-mode).
   <p align="center">
-  <img src='../misc/Human_intro.png' width=600>
+  <img src='./misc/github.png' width=600>
   </p>
-* september 1. 2023: Režim **Art** je už k dispozícii! Môžete si aktivovať agenta dizajnéra <img src='../online_log/static/figures/designer.png' height=20> na generovanie obrázkov používaných v programe;
-  skúste ``python3 run.py --task [description_of_your_idea] --config "Art"``. Pozri [návod](../wiki.md#art) a [príklad](../WareHouse/gomokugameArtExample_THUNLP_20230831122822).
-* august 28. 2023: Systém je verejne dostupný.
-* august 17. 2023: Verzia v1.0.0 bola pripravená na vydanie.
-* júl 30. 2023: Používatelia si môžu prispôsobiť nastavenia ChatChain, Phase a Role. Okrem toho je k dispozícii režim online záznamu aj replay
-  režim sú teraz podporované.
-* júl 16. 2023: Bol uverejnený článok [preprint paper](https://arxiv.org/abs/2307.07924) súvisiaci s týmto projektom.
-* jún 30. 2023: Bola vydaná počiatočná verzia repozitára ChatDev.
+* September 20th, 2023: The **Human-Agent-Interaction** mode is now available! You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>; try `python3 run.py --task [description_of_your_idea] --config "Human"`. See [guide](wiki.md#human-agent-interaction) and [example](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
+  <p align="center">
+  <img src='./misc/Human_intro.png' width=600>
+  </p>
+* September 1st, 2023: The **Art** mode is available now! You can activate the designer agent <img src='online_log/static/figures/designer.png' height=20> to generate images used in the software; try `python3 run.py --task [description_of_your_idea] --config "Art"`. See [guide](wiki.md#art) and [example](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
+* August 28th, 2023: The system is publicly available.
+* August 17th, 2023: The v1.0.0 version was ready for release.
+* July 30th, 2023: Users can customize ChatChain, Phase, and Role settings. Additionally, both online Log mode and replay mode are now supported.
+* July 16th, 2023: The [preprint paper](https://arxiv.org/abs/2307.07924) associated with this project was published.
+* June 30th, 2023: The initial version of the ChatDev repository was released.
 
 ## ❓ Čo dokáže ChatDev?
 
-![intro](../misc/intro.png)
+![intro](misc/intro.png)
 
 https://github.com/OpenBMB/ChatDev/assets/11889052/80d01d2f-677b-4399-ad8b-f7af9bb62b72
 
 ## ⚡️ Rýchly štart
-Ak chcete začať, postupujte podľa týchto krokov:
+
+### 🖥️ Quickstart with terminal
+
+To get started, follow these steps:
 
 1. **Naklonovať GitHub repozitár:** Začnite klonovaním repozitára pomocou príkazu:
    ```
    git clone https://github.com/OpenBMB/ChatDev.git
    ```
-2. **Nastavenie prostredia Python:** Uistite sa, že máte prostredie Python vo verzii 3.9 alebo vyššej. Môžete vytvoriť a
-   aktivovať toto prostredie pomocou nasledujúcich príkazov, pričom `ChatDev_conda_env` nahradíte preferovaným menom prostredia
-   :
+2. **Set Up Python Environment:** Ensure you have a version 3.9 or higher Python environment. You can create and activate this environment using the following commands, replacing `ChatDev_conda_env` with your preferred environment name:
    ```
    conda create -n ChatDev_conda_env python=3.9 -y
    conda activate ChatDev_conda_env
@@ -67,10 +66,7 @@ Ak chcete začať, postupujte podľa týchto krokov:
    cd ChatDev
    pip3 install -r requirements.txt
    ```
-4. **Nastavenie kľúča API OpenAI:** Exportujte svoj kľúč API OpenAI ako premennú prostredia. Nahraďte `"vas_OpenAI_API_kluc"`
-   svojím skutočným kľúčom API. **Nezabudnite, že táto premenná prostredia je špecifická pre reláciu, takže ju musíte nastaviť znova, ak**
-   **otvoríte novú reláciu terminálu.**
-   V systéme Unix/Linux:
+4. **Set OpenAI API Key:** Export your OpenAI API key as an environment variable. Replace `"your_OpenAI_API_key"` with your actual API key. Remember that this environment variable is session-specific, so you need to set it again if you open a new terminal session. On Unix/Linux:
    ```
    export OPENAI_API_KEY="vas_OpenAI_API_kluc"
    ```
@@ -78,9 +74,7 @@ Ak chcete začať, postupujte podľa týchto krokov:
    ```
    $env:OPENAI_API_KEY="vas_OpenAI_API_kluc"
    ```
-5. **Generovanie softvéru:** Na spustenie generovania softvéru použite nasledujúci príkaz,
-   pričom `[popis_vášho_nápadu]` nahradíte opisom svojho nápadu a `[meno_projektu]` požadovaným menom projektu:
-   Na systéme Unix/Linux:
+5. **Generovanie softvéru:** Na spustenie generovania softvéru použite nasledujúci príkaz, pričom `[popis_vášho_nápadu]` nahradíte opisom svojho nápadu a `[meno_projektu]` požadovaným menom projektu: Na systéme Unix/Linux:
    ```
    python3 run.py --task "[popis_vášho_nápadu]" --name "[meno_projektu]"
    ```
@@ -88,10 +82,7 @@ Ak chcete začať, postupujte podľa týchto krokov:
    ```
    python run.py --task "[popis_vášho_nápadu]" --name "[meno_projektu]"
    ```
-6. **Spustenie softvéru:** Po vygenerovaní nájdete svoj softvér v adresári `WareHouse` pod konkrétnym
-   priečinku projektu, napríklad `moj_projekt_DefaultOrganization_20231010224405`. Spustite svoj softvér pomocou nasledujúceho príkazu
-   v tomto adresári:
-   V systéme Unix/Linux:
+6. **Run Your Software:** Once generated, you can find your software in the `WareHouse` directory under a specific project folder, such as `project_name_DefaultOrganization_timestamp`. Run your software using the following command within that directory: On Unix/Linux:
    ```
    cd WareHouse/moj_projekt_DefaultOrganization_20231010224405
    python3 main.py
@@ -102,60 +93,44 @@ Ak chcete začať, postupujte podľa týchto krokov:
    python main.py
    ```
 
+### 🐳 Quickstart with Docker
+- We thank [ManindraDeMel](https://github.com/ManindraDeMel) for providing Docker support. Please see [Docker Start Guide](wiki.md#docker-start).
+
 ## ✨️ Pokročilé zručnosti
 
-Podrobnejšie informácie nájdete na našej [Wiki](../wiki.md), kde nájdete:
+For more detailed information, please refer to our [Wiki](wiki.md), where you can find:
 
-- Úvod do všetkých parametrov spúšťania príkazov.
-- Jednoduchý návod na nastavenie miestnej webovej ukážky, ktorá obsahuje rozšírené vizualizované protokoly, ukážku prehrávania a
-  jednoduchý vizualizér ChatChain.
-- Prehľad ChatDev frameworku.
-- Komplexný úvod do všetkých pokročilých parametrov konfigurácie ChatChain.
-- Návody na prispôsobenie ChatDev vrátane:
-    - ChatChain: Navrhnite si vlastný proces vývoja softvéru (alebo akýkoľvek iný proces), napr.
-      ako ``Analýza dopytu -> Kódovanie -> Testovanie -> Manuálne``.
-    - Fáza: Navrhnite si vlastnú fázu v rámci ChatChain, napríklad ``DemandAnalysis``.
-    - Rola: Definovanie rôznych zástupcov vo vašej spoločnosti, napríklad ``Hlavný výkonný riaditeľ``.
+- Všetky súbory a dokumenty týkajúce sa softvéru hry 2048
+- Konfiguračné súbory spoločnosti zodpovednej za tento softvér vrátane troch konfiguračných súborov JSON z `CompanyConfig/Default`
+- Komplexný protokol s podrobnými informáciami o procese vytvárania softvéru, ktorý možno použiť na prehrávanie (`timestamp.log`)
+- Počiatočny "prompt" alebo zadanie použite na vytvorenie tohto softvéru (`2048.prompt`)
+- Guides for customizing ChatDev, including:
+    - ChatChain: Design your own software development process (or any other process), such as `DemandAnalysis -> Coding -> Testing -> Manual`.
+    - Phase: Design your own phase within ChatChain, like `DemandAnalysis`.
+    - Role: Defining the various agents in your company, such as the `Chief Executive Officer`.
 
 ## 🤗 Zdieľajte svoj softvér!
 
-**Kód**: Sme nadšení z vášho záujmu o účasť na našom open-source projekte. Ak narazíte na akýkoľvek
-problémy, neváhajte ich nahlásiť. Neváhajte a vytvorte žiadosť o stiahnutie, ak máte nejaké otázky alebo ak ste
-pripravení podeliť sa s nami o svoju prácu! Vaše príspevky si veľmi ceníme. Dajte mi prosím vedieť, ak potrebujete pomoc!
+**Code**: We are enthusiastic about your interest in participating in our open-source project. If you come across any problems, don't hesitate to report them. Feel free to create a pull request if you have any inquiries or if you are prepared to share your work with us! Your contributions are highly valued. Please let me know if there's anything else you need assistance!
 
-**Spoločnosť**: Vytvorenie vlastnej prispôsobenej "ChatDev Company" je hračka. Toto personalizované nastavenie zahŕňa tri jednoduché
-konfiguračné súbory JSON. Pozrite si príklad uvedený v adresári ``CompanyConfig/Default``. Podrobný
-návod na prispôsobenie nájdete na našej [Wiki](../wiki.md).
+**Company**: Creating your own customized "ChatDev Company" is a breeze. This personalized setup involves three simple configuration JSON files. Check out the example provided in the `CompanyConfig/Default` directory. For detailed instructions on customization, refer to our [Wiki](wiki.md).
 
-**Softvér**: Vždy, keď vyvíjate softvér pomocou ChatDev, vytvorí sa príslušný priečinok obsahujúci všetky
-dôležité informácie. Zdieľanie vašej práce s nami je také jednoduché ako pull request. Tu je príklad: vykonajte
-príkaz ``python3 run.py --task "design a 2048 game" --name "2048" --org "THUNLP" --config "Default"``. Tým sa
-vytvorí softvérový balík a vygeneruje priečinok s názvom ``/WareHouse/2048_THUNLP_timestamp``. V ňom nájdete:
+**Software**: Whenever you develop software using ChatDev, a corresponding folder is generated containing all the essential information. Sharing your work with us is as simple as making a pull request. Here's an example: execute the command `python3 run.py --task "design a 2048 game" --name "2048"  --org "THUNLP" --config "Default"`. This will create a software package and generate a folder named `/WareHouse/2048_THUNLP_timestamp`. Inside, you'll find:
 
-- Všetky súbory a dokumenty týkajúce sa softvéru hry 2048
-- Konfiguračné súbory spoločnosti zodpovednej za tento softvér vrátane troch konfiguračných súborov JSON
-  z ``CompanyConfig/Default``
-- Komplexný protokol s podrobnými informáciami o procese vytvárania softvéru, ktorý možno použiť na prehrávanie (``timestamp.log``)
-- Počiatočny "prompt" alebo zadanie použite na vytvorenie tohto softvéru (``2048.prompt``)
+- All the files and documents related to the 2048 game software
+- Configuration files of the company responsible for this software, including the three JSON config files from `CompanyConfig/Default`
+- A comprehensive log detailing the software's building process that can be used to replay (`timestamp.log`)
+- The initial prompt used to create this software (`2048.prompt`)
 
-**Pozrite si softvér poskytnutý komunitou [tu](../Contribution.md)!**
+**See community contributed software [here](Contribution.md)!**
 
 ## 👨‍💻‍ Kontributory softvéru
 
-<a href="https://github.com/qianc62"><img src="https://avatars.githubusercontent.com/u/48988402?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/thinkwee"><img src="https://avatars.githubusercontent.com/u/11889052?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/NA-Wen"><img src="https://avatars.githubusercontent.com/u/92134380?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/JiahaoLi2003"><img src="https://avatars.githubusercontent.com/u/111221887?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Alphamasterliu"><img src="https://avatars.githubusercontent.com/u/110011045?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/GeekyWizKid"><img src="https://avatars.githubusercontent.com/u/133981481?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Munsif-Raza-T"><img src="https://avatars.githubusercontent.com/u/76085202?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/djbritt"><img src="https://avatars.githubusercontent.com/u/28036018?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Classified3939"><img src="https://avatars.githubusercontent.com/u/102702965?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/chenilim"><img src="https://avatars.githubusercontent.com/u/46905241?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/delconis"><img src="https://avatars.githubusercontent.com/u/5824478?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/eMcQuill"><img src="https://avatars.githubusercontent.com/u/139025701?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Aizhouym"><img src="https://avatars.githubusercontent.com/u/105852026?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/OpenBMB/ChatDev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OpenBMB/ChatDev" />
+</a>
 
+Made with [contrib.rocks](https://contrib.rocks).
 ## 🔎 Citát
 
 ```
@@ -171,9 +146,9 @@ vytvorí softvérový balík a vygeneruje priečinok s názvom ``/WareHouse/2048
 
 ## ⚖️ License
 
-- Licencovanie zdrojového kódu: Zdrojový kód nášho projektu je licencovaný pod licenciou Apache 2.0. Táto licencia povoľuje používanie, modifikáciu a šírenie kódu za určitých podmienok uvedených v licencii Apache 2.0.
-- Stav projektu ako open-source: Projekt je skutočne open-source, toto označenie je však primárne určené na nekomerčné účely. Hoci podporujeme spoluprácu a príspevky komunity na výskum a nekomerčné aplikácie, je dôležité poznamenať, že akékoľvek využitie komponentov projektu na komerčné účely si vyžaduje samostatné licenčné zmluvy.
-- Licencovanie údajov: Súvisiace údaje použité v našom projekte sú licencované pod CC BY-NC 4.0. Táto licencia výslovne povoľuje nekomerčné použitie údajov. Chceli by sme zdôrazniť, že akékoľvek modely vycvičené pomocou týchto súborov údajov by mali striktne dodržiavať obmedzenie nekomerčného použitia a mali by sa používať výlučne na výskumné účely.
+- Source Code Licensing: Our project's source code is licensed under the Apache 2.0 License. This license permits the use, modification, and distribution of the code, subject to certain conditions outlined in the Apache 2.0 License.
+- Project Open-Source Status: The project is indeed open-source; however, this designation is primarily intended for non-commercial purposes. While we encourage collaboration and contributions from the community for research and non-commercial applications, it is important to note that any utilization of the project's components for commercial purposes necessitates separate licensing agreements.
+- Data Licensing: The related data utilized in our project is licensed under CC BY-NC 4.0. This license explicitly permits non-commercial use of the data. We would like to emphasize that any models trained using these datasets should strictly adhere to the non-commercial usage restriction and should be employed exclusively for research purposes.
 
 ## 🌟 Star Historia
 
@@ -181,6 +156,7 @@ vytvorí softvérový balík a vygeneruje priečinok s názvom ``/WareHouse/2048
 
 
 ## 🤝 Poďakovania
+
 <a href="http://nlp.csai.tsinghua.edu.cn/"><img src="misc/thunlp.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://modelbest.cn/"><img src="misc/modelbest.png" height=50pt></a>&nbsp;&nbsp;
 <a href="https://github.com/OpenBMB/AgentVerse/"><img src="misc/agentverse.png" height=50pt></a>&nbsp;&nbsp;
@@ -188,4 +164,4 @@ vytvorí softvérový balík a vygeneruje priečinok s názvom ``/WareHouse/2048
 
 ## 📬 Kontakt
 
-Ak máte akékoľvek otázky, spätnú väzbu alebo by ste nás chceli kontaktovať, neváhajte nás kontaktovať e-mailom na adrese [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
+If you have any questions, feedback, or would like to get in touch, please feel free to reach out to us via email at [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
