@@ -1,7 +1,7 @@
 # 软件开发通信代理
 
 <p align="center">
-  <img src='./misc/logo1.png' width=550>
+  <img src='../misc/logo1.png' width=550>
 </p>
 
 <p align="center">
@@ -16,22 +16,22 @@
 - **ChatDev** 代表 **虚拟软件公司** 通过各种 **智能代理** 持有 不同的角色 包括首席执行干事 <img src='online_log/static/figures/ceo.png' height=20>、首席产品干事 <img src='online_log/static/figures/cpo.png' height=20>、首席技术干事 <img src='online_log/static/figures/cto.png' height=20>、 程序员 <img src='online_log/static/figures/programmer.png' height=20>, 审核员 <img src='online_log/static/figures/reviewer.png' height=20>, 测试员 <img src='online_log/static/figures/tester.png' height=20>, 艺术设计师 <img src='online_log/static/figures/designer.png' height=20> These agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world through programming." The agents within ChatDev **collaborate** by participating in specialized functional seminars, including tasks such as designing, coding, testing, and documenting.
 - ChatDev的主要目标是提供 **易用的** **高度可自定义的** 和 **可扩展的** 框架 基于大型语言模式(LLMs)，是研究集体情报的理想情景。
 <p align="center">
-  <img src='./misc/company.png' width=600>
+  <img src='../misc/company.png' width=600>
 </p>
 
 ## :party_poper: 新闻
 
 * **2023年10月26日：ChatDev现在被Docker支持安全执行** (感谢 [Manindrade Mel](https://github.com/ManindraDeMel) 的贡献)。 请参阅 [停靠首页指南](wiki.md#docker-start)
   <p align="center">
-  <img src='./misc/docker.png' width=400>
+  <img src='../misc/docker.png' width=400>
   </p>
 * 2023年9月25日： **Git** 模式现在可用，使程序员 <img src='online_log/static/figures/programmer.png' height=20> 能够使用Git来控制版本。 要启用此功能，只需将 `"git_management"` 设置为 `"True"` 设置为 `ChatChainConfig.json` 中。 见 [指南](wiki.md#git-mode)。
   <p align="center">
-  <img src='./misc/github.png' width=600>
+  <img src='../misc/github.png' width=600>
   </p>
 * 2023年9月20日： **人际交流** 模式现在可用！ You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>; try `python3 run.py --task [description_of_your_idea] --config "Human"`. 见 [指南](wiki.md#human-agent-interaction) 和 [示例](WareHouse/Gomoku_HumanAgentInteraction_20230920135038)。
   <p align="center">
-  <img src='./misc/Human_intro.png' width=600>
+  <img src='../misc/Human_intro.png' width=600>
   </p>
 * 2023年9月1日： **Art** 模式现在可用！ 您可以激活设计代理 <img src='online_log/static/figures/designer.png' height=20> 生成软件中使用的图像； 请尝试 `python3 run.py --task [description_of_your_idea] --config "Art"` 见 [指南](wiki.md#art) 和 [示例](WareHouse/gomokugameArtExample_THUNLP_20230831122822)。
 * 2023年8月28日：该系统可供公众使用。

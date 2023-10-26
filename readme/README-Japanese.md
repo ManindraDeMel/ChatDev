@@ -1,7 +1,7 @@
 # ソフトウェア開発のための通信エージェント
 
 <p align="center">
-  <img src='./misc/logo1.png' width=550>
+  <img src='../misc/logo1.png' width=550>
 </p>
 
 <p align="center">
@@ -16,22 +16,22 @@
 - **ChatDev** stands as a **virtual software company** that operates through various **intelligent agents** holding different roles, including Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmer <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. これらの エージェントは、マルチエージェント組織構造を形成し、「プログラミングを通じてデジタルワールド に革命をもたらす」という使命によって結束しています。 ChatDev **内のエージェントは、** に特化した機能セミナーに参加し、 の設計、コーディング、テスト、文書化などのタスクに参加します。
 - The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework, which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
 <p align="center">
-  <img src='./misc/company.png' width=600>
+  <img src='../misc/company.png' width=600>
 </p>
 
 ## 🎉 ニュース
 
 * **October 26th, 2023: ChatDev is now supported with Docker for safe execution** (thanks to contribution from [ManindraDeMel](https://github.com/ManindraDeMel)). [Docker スタートガイド](wiki.md#docker-start) をご覧ください。
   <p align="center">
-  <img src='./misc/docker.png' width=400>
+  <img src='../misc/docker.png' width=400>
   </p>
 * 2023年9月25日: **Git** モードが利用可能になり、プログラマ <img src='online_log/static/figures/programmer.png' height=20> がGitをバージョン管理に利用できるようになりました。 この機能を有効にするには、 `"git_management"` を `"True"` を `ChatChainConfig.json` に設定するだけです。 [ガイド](wiki.md#git-mode) をご覧ください。
   <p align="center">
-  <img src='./misc/github.png' width=600>
+  <img src='../misc/github.png' width=600>
   </p>
 * 2023年9月20日: **ヒューマンエージェント対話** モードが利用可能になりました! You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>; try `python3 run.py --task [description_of_your_idea] --config "Human"`. [ガイド](wiki.md#human-agent-interaction) と [例](WareHouse/Gomoku_HumanAgentInteraction_20230920135038) を参照してください。
   <p align="center">
-  <img src='./misc/Human_intro.png' width=600>
+  <img src='../misc/Human_intro.png' width=600>
   </p>
 * 2023年9月1日： **アート** モードが登場！ You can activate the designer agent <img src='online_log/static/figures/designer.png' height=20> to generate images used in the software; try `python3 run.py --task [description_of_your_idea] --config "Art"`. [ガイド](wiki.md#art) と [例](WareHouse/gomokugameArtExample_THUNLP_20230831122822) を参照してください。
 * 2023年8月28日：システムが一般公開される。

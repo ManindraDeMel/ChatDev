@@ -1,7 +1,7 @@
 # Communicatieve agenten voor softwareontwikkeling
 
 <p align="center">
-  <img src='./misc/logo1.png' width=550>
+  <img src='../misc/logo1.png' width=550>
 </p>
 
 <p align="center">
@@ -16,22 +16,22 @@
 - **ChatDev** staat als een **virtueel softwarebedrijf** dat opereert via verschillende **intelligente agenten** met verschillende rollen houd. inclusief Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmeur <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. These agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world through programming." De agenten binnen ChatDev **werken samen** door deel te nemen aan gespecialiseerde functionele seminars, inclusief taken zoals het ontwerpen, coderen, testen en documenteren.
 - Het primaire doel van ChatDev is om een **makkelijk te gebruiken**, **zeer aanpasbaar** en **uitbreidbaar** framework die is gebaseerd op grote taalmodellen (LLM's) en fungeert als een ideaal scenario voor het bestuderen van collectieve intelligentie.
 <p align="center">
-  <img src='./misc/company.png' width=600>
+  <img src='../misc/company.png' width=600>
 </p>
 
 ## 🎉 Nieuws
 
 * **26 oktober, 2023: ChatDev wordt nu ondersteund met Docker voor een veilige executie** (dankzij de bijdrage van [ManindraDeMel](https://github.com/ManindraDeMel)). Zie [Start Guide van Docker](wiki.md#docker-start).
   <p align="center">
-  <img src='./misc/docker.png' width=400>
+  <img src='../misc/docker.png' width=400>
   </p>
 * 25 september, 2023: De **Git** modus is nu beschikbaar, zodat de programmeur <img src='online_log/static/figures/programmer.png' height=20> Git kan gebruiken voor versiemanagement. Om deze functie in te schakelen, stel `"git_management"` in op `"True"` in `ChatChainConfig.json`. Zie [handleiding](wiki.md#git-mode).
   <p align="center">
-  <img src='./misc/github.png' width=600>
+  <img src='../misc/github.png' width=600>
   </p>
 * 20 September 2023: De **Human-Agent-Interactie** modus is nu beschikbaar! U kunt betrokken raken bij het ChatDev team door de rol van reviewer <img src='online_log/static/figures/reviewer.png' height=20> te spelen en suggesties te doen aan de programmeur <img src='online_log/static/figures/programmer.png' height=20>; probeer `python3 run. y --task [description_of_your_idea] --config "Human"`. Zie [handleiding](wiki.md#human-agent-interaction) en [voorbeeld](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
   <p align="center">
-  <img src='./misc/Human_intro.png' width=600>
+  <img src='../misc/Human_intro.png' width=600>
   </p>
 * 1 September 2023: De **Kunst** modus is nu beschikbaar! Je kunt de designer agent <img src='online_log/static/figures/designer.png' height=20> activeren om afbeeldingen te genereren die gebruikt worden in de software; probeer `python3 run.py --task [description_of_your_idea] --config "Art"`. Zie [handleiding](wiki.md#art) en [voorbeeld](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
 * 28 augustus 2023: het systeem is openbaar beschikbaar.

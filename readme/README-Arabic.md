@@ -1,7 +1,7 @@
 # وكلاء الاتصال لتطوير البرمجيات
 
 <p align="center">
-  <img src='./misc/logo1.png' width=550>
+  <img src='../misc/logo1.png' width=550>
 </p>
 
 <p align="center">
@@ -16,22 +16,22 @@
 - **ChatDev** stands as a **virtual software company** that operates through various **intelligent agents** holding different roles, including Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmer <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. These agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world through programming." يتعاون الوكلاء داخل ChatDev **مع** من خلال المشاركة في الحلقات الدراسية الفنية المتخصصة، بما في ذلك مهام مثل التصميم والبرمجة والاختبار والتوثيق.
 - The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework, which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
 <p align="center">
-  <img src='./misc/company.png' width=600>
+  <img src='../misc/company.png' width=600>
 </p>
 
 ## 🎉 الأخبار
 
 * **26 أكتوبر 2023: ChatDev مدعوم الآن مع Docker للتنفيذ الآمن** (بفضل المساهمة من [ManindraDeMel](https://github.com/ManindraDeMel)). Please see [Docker Start Guide](wiki.md#docker-start).
   <p align="center">
-  <img src='./misc/docker.png' width=400>
+  <img src='../misc/docker.png' width=400>
   </p>
 * 25 سبتمبر، 2023: وضع **Git** متاح الآن، مما يمكن المبرمج <img src='online_log/static/figures/programmer.png' height=20> من استخدام Git للتحكم في الإصدار. لتمكين هذه الميزة، ببساطة تعيين `"git_management"` إلى `"True"` في `ChatChainConfig.json`. راجع الدليل [](wiki.md#git-mode).
   <p align="center">
-  <img src='./misc/github.png' width=600>
+  <img src='../misc/github.png' width=600>
   </p>
 * 20 سبتمبر 2023: وضع **A-Agent-Interaction** متاح الآن! يمكنك المشاركة مع فريق ChatDev عن طريق لعب دور المستعرض <img src='online_log/static/figures/reviewer.png' height=20> وتقديم اقتراحات إلى المبرمج <img src='online_log/static/figures/programmer.png' height=20>؛ جرب `تشغيل python3. y --task [description_of_your_idea] --config "Human"`. راجع الدليل [](wiki.md#human-agent-interaction) و [المثال](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
   <p align="center">
-  <img src='./misc/Human_intro.png' width=600>
+  <img src='../misc/Human_intro.png' width=600>
   </p>
 * 1 سبتمبر 2023: وضع **Art** متاح الآن! يمكنك تنشيط وكيل المصمم <img src='online_log/static/figures/designer.png' height=20> لتوليد صور مستخدمة في البرنامج؛ حاول `python3 run.py --task [description_of_your_idea] --تكوين "Art"`. راجع الدليل [](wiki.md#art) و [المثال](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
 * 28 أغسطس 2023: النظام متاح للجمهور.
